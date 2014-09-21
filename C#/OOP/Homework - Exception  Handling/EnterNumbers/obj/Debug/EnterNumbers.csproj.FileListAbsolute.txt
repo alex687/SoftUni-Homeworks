@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\bin\Debug\EnterNumbers.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\bin\Debug\EnterNumbers.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\obj\Debug\EnterNumbers.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\obj\Debug\EnterNumbers.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\EnterNumbers\obj\Debug\EnterNumbers.pdb

@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\bin\Debug\BitArray.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\bin\Debug\BitArray.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\bin\Debug\BitArray.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\obj\Debug\BitArray.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\obj\Debug\BitArray.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\BitArray\obj\Debug\BitArray.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\bin\Debug\Point3D.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\bin\Debug\Point3D.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\bin\Debug\Point3D.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\obj\Debug\Point3D.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\obj\Debug\Point3D.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache

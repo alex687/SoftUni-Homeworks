@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\Square Root\bin\Debug\Square Root.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\Square Root\bin\Debug\Square Root.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\Square Root\bin\Debug\Square Root.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\Square Root\obj\Debug\Square Root.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Exception  Handling\Square Root\obj\Debug\Square Root.pdb

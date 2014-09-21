@@ -1,0 +1,6 @@
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\bin\Debug\Geometry.exe.config
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\bin\Debug\Geometry.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\bin\Debug\Geometry.pdb
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\obj\Debug\Geometry.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\obj\Debug\Geometry.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Static Members and Namespaces\Geometry\obj\Debug\Geometry.pdb

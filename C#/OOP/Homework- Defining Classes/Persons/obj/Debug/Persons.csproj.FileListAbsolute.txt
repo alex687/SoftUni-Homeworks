@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\bin\Debug\Persons.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\obj\Debug\Persons.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\bin\Debug\Persons.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\bin\Debug\Persons.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\obj\Debug\Persons.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\Persons\obj\Debug\Persons.pdb

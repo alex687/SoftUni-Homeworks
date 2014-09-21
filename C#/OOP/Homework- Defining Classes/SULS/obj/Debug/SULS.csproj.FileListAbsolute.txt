@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\bin\Debug\SULS.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\obj\Debug\SULS.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\bin\Debug\SULS.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\bin\Debug\SULS.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\obj\Debug\SULS.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\SULS\obj\Debug\SULS.pdb

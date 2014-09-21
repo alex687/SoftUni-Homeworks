@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\bin\Debug\HTML Dispatcher.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\obj\Debug\HTML Dispatcher.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\bin\Debug\HTML Dispatcher.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\bin\Debug\HTML Dispatcher.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\obj\Debug\HTML Dispatcher.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Static Members and Namespaces\HTML Dispatcher\obj\Debug\HTML Dispatcher.pdb

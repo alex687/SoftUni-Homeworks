@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\bin\Debug\PC Catalogue.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\obj\Debug\PC Catalogue.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\bin\Debug\PC Catalogue.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\bin\Debug\PC Catalogue.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\obj\Debug\PC Catalogue.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework- Defining Classes\PC Catalogue\obj\Debug\PC Catalogue.pdb
