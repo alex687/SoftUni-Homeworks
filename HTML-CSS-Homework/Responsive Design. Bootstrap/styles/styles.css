@@ -1,0 +1,173 @@
+body {
+    background-color: #4b97ff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#wrapper header h1 {
+    margin: 0;
+}
+
+#wrapper header h1 a {
+    color: white;
+}
+
+nav:before {
+
+        height: 1px;
+        background: #000;
+        content: "";
+        display: block;
+        position: relative;
+        top: 33px;
+        z-index: -1;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid black;
+}
+
+nav ul li a {
+    color: black;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+section article{
+    background-color: #e1ebfe;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+section article h1 {
+    margin: 0.8rem 0.2rem 0.3rem 0.2rem;
+}
+
+section article div p{
+    text-indent: 30px;
+}
+
+aside {
+    width: 28%;
+    float: right;
+}
+
+.news {
+    background-color: #e1ebfe;
+    border: 1px solid black;
+}
+
+.news ul {
+    margin: 0;
+    padding: 10px 25px 10px 10px;
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.news ul li a {
+    color: black;
+}
+
+.block {
+    margin-bottom: 7px;
+}
+
+footer{
+    clear: both;
+    background-color: #e1ebfe;
+    border: 1px solid black;
+}
+
+footer h2 {
+
+    text-align: center;
+}
+
+footer h2 a {
+    color: purple;
+    text-decoration: underline;
+}
+
+@media only screen and ( max-width: 960px) {
+    #wrapper{
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width: 780px) {
+    aside{
+        float: none;
+        width: 100%;
+        height: 10%;
+        margin-bottom: 10px;
+    }
+
+    .news ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .news ul li {
+        display: block;
+        padding: 0;
+        width: 20%;
+        height: 100%;
+        margin: 10px 2% 50px 2%;
+        float: left;
+    }
+
+    .news div:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .news ul li a {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    section{
+        float: none;
+        width: 100%;
+    }
+
+    section article h1 {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media  only screen and ( max-width: 640px){
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,84 @@
+#yellow-circle{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#yellow-circle div {
+    display: inline-block;
+    position: absolute;
+}
+
+#left-eye{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 90px;
+    left: 76px;
+    background-color: #ffffff;
+}
+
+#right-eye{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 90px;
+    left: 310px;
+    background-color: #ffffff;
+}
+
+#nose{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 205px;
+    left: 195px;
+    background-color: red;
+}
+
+#mouth{
+    width: 200px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 100px;
+    top: 335px;
+    left: 140px;
+    background-color: #ffffff;
+}
+
+#left-iris{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    top: 55px;
+    left: 66px;
+}
+
+#right-iris{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    top: 0px;
+    left: 66px;
+}
+
+.tooth {
+    top:0px;
+    left: 50px;
+}
+
+.tooth div {
+    position: static !important;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    width: 40px;
+    height: 50px;
+}

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/1_style.css"/>
+    <!-- Font link -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script>
+        function checkPasswords() {
+            if (document.getElementById("password").value == document.getElementById("confirm_password").value) {
+                return true;
+            }
+            alert("Passwords do not match");
+            if(event.preventDefault){
+                event.preventDefault();
+            }else{
+                event.returnValue = false;
+            }
+        }
+    </script>
+</head>
+<body>
+<header>
+    <h1><strong>Enter the system</strong></h1>
+
+    <p>You need to login to your account</p>
+</header>
+<div class="wrapper">
+    <section class="registration">
+        <h2>Are you new? <span>Register</span></h2>
+
+        <form method="post" action="register.php" onsubmit="checkPasswords()">
+            <input type="text" pattern=".{3,}" name="username" placeholder="Username" required="required"
+                   title="3 characters minimum"/>
+            <input type="email" name="email" placeholder="Email" required="required"/>
+            <input type="password" pattern=".{3,}" name="password" id="password" placeholder="Password"
+                   required="required"
+                   title="3 characters minimum"/>
+            <input type="password" pattern=".{3,}" name="confirm_password" id="confirm_password"
+                   placeholder="Confirm Password"
+                   required="required" title="3 characters minimum"/>
+            <input type="submit" name="Register" value="Register"/>
+
+            <div class="clear"></div>
+        </form>
+    </section>
+    <section class="login">
+        <form action="login.php" method="post">
+            <h2>Вече си студент? Влез</h2>
+            <input type="text" name="username" placeholder="Username" required="required"/>
+            <input type="password" name="passwordlogin" placeholder="Password" required="required"/>
+
+            <div class="clear"></div>
+
+
+            <input type="checkbox" name="remember" value="1" id="remember">
+            <label for="remember">Remember me?</label>
+
+            <input type="submit" value="Login">
+
+            <div class="clear"></div>
+            <a href="forgottenpassword" class="forgottenpassword">Забравена парола</a>
+
+            <div class="clear"></div>
+        </form>
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body{
+    background-color: #f7f7f6;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: #343535;
+    font-size: 1.3rem;
+}
+section{
+    width: 800px;
+    float: left;
+}
+
+aside{
+    width: 160px;
+    float: left;
+    margin-left: 50px;
+}
+fieldset{
+   border: 1px dashed #d0ccc7;
+}
+
+legend{
+    color: white;
+    background-color: #666460;
+    border: 1px solid #343535;
+    padding: 5px;
+}
+
+label{
+    background-color: #d0ccc7;
+    color: #666460;
+    width: 130px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+input{
+    border: 2px inset #e8e7e4;
+    width: 600px;
+    height: 30px;
+    padding-left:30px;
+    background: url('../images/field-icon.png') no-repeat scroll 0px 3px white;
+    color: #666460;
+    font-weight: bold;
+}
+
+form div{
+    background-color: #e8e7e4;
+    padding: 3px 20px 3px 3px;
+    display: inline-block;
+}
+
+#username{
+    background: url('../images/username-icon.png') no-repeat scroll 0px 3px white;
+}
+
+#pass{
+    background: url('../images/password-icon.png') no-repeat scroll 0px 3px white;
+}
+
+input:active{
+    background-color: #f8f5ce !important;
+}
+
+input:hover{
+    background-color: #f8f5ce !important;
+}
+
+
+.submit button{
+    background: #e6e4d8;
+    color: #9c8d68;
+    padding: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.submit button:hover {
+    background: #d0ccc7;
+}
+
+.submit{
+    background-color: white;
+    border: 1px solid #d0ccc7;
+    width: 624px;
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+    margin-top: 3px;
+    text-align: right;
+}
+
+aside section{
+    width: auto;
+    border: 1px solid #d0ccc7;
+    background-color: white;
+    padding: 10px;
+    color: #666460;
+}
+
+aside section h2 {
+    color: #343535;
+}

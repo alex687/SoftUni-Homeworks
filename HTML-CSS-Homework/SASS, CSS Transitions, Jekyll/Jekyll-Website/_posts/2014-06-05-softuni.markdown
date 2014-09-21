@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "SoftUni !!!"
+date:   2014-06-05 17:06:25
+categories: jekyll update
+---
+
+Softuni RLZ in PHP
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight php %}
+	<?php
+		echo "SoftUni RLZ"
+	?>
+{% endhighlight %}
+
+

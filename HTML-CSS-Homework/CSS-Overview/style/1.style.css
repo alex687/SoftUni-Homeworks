@@ -1,0 +1,114 @@
+article table {
+}
+
+article table thead {
+    background-color: #f8c711;
+    border-radius: 10px;
+}
+
+article table thead th {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+article table thead tr th:first-child {
+    border-left: 1px solid black;
+    /* Add top left radius */
+    border-radius: 5px 0px 0px 0px;
+}
+
+article table thead tr th:last-child {
+    border-right: 1px solid black;
+    /* Add top right radius */
+    border-radius: 0px 5px 0px 0px;
+}
+
+article table thead tr:first-child th {
+    border-top: 1px solid black;
+}
+
+article table tbody tr:last-child td:first-child {
+    /* Add bottom left radius */
+    border-radius: 0px 0px 0px 5px;
+}
+
+article table tbody tr td:last-child {
+    border-right: 1px solid black;
+}
+
+article table tbody tr:last-child td:last-child {
+    /* Add bottom right radius */
+    border-radius: 0px 0px 5px 0px;
+}
+
+article table td {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*End borders */
+
+article table tbody tr:nth-child(even) {
+    background-color: #c8c8c8;
+}
+
+article table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+article table tbody td {
+    padding: 7px;
+}
+
+article table thead th {
+    padding: 5px;
+}
+
+.big {
+    width: 100px;
+}
+
+.small{
+    width: 70px;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+select:disabled {
+    background-color: #c8c8c8;
+    color: red;
+}
+
+select {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    min-width: 35px;
+}
+
+.min-105{
+    min-width: 105px;
+}
+
+.bet{
+    background-color: red;
+    border-radius: 50%;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px outset #eee;
+}

@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    background: #234465;
+    padding: 20px 0px 0px 0px;
+}
+
+#logo {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-search {
+    margin-left: 30px;
+    float: right;
+}
+
+nav {
+    clear: both;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.menu > ul > li > a {
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Drop down */
+.menu ul li .dropdown {
+    position: absolute;
+    display: none;
+    width: 310px;
+    background: #234465;
+    padding: 0px
+}
+
+.menu > ul > li:hover {
+    background-color: #4ca0db;
+    border-radius: 5px;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.user-menu {
+    margin-right: 15px;
+}
+
+ul .dropdown li {
+    border-bottom: 1px solid #435f7b;
+}
+
+ul .dropdown li > a {
+    padding: 0 20px;
+    line-height: 32px;
+    color: #fff;
+    white-space: initial;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+
+ul .dropdown li > a:hover {
+    color: #fff;
+    background: #FF9C00;
+}
+
+.custom-dropdown-header {
+    color: #4ca0db !important;
+    font-weight: bold !important;
+}
+
+/* End Drop down*/
+
+/* Search */
+#nav-search form {
+    display: inline-block;
+}
+
+#nav-search .status {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+    color: #ffffff;
+    height: 32px;
+    line-height: 33px;
+}
+
+#nav-search .status > .fa-bell-o {
+    font-size: 1.2rem;
+}
+
+#nav-search form:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+
+#nav-search div {
+    display: inline-block;
+    float: right;
+}
+
+#nav-search form input {
+    border: 0;
+    vertical-align: top;
+    height: 32px;
+    width: 220px;
+    margin: 0;
+    color: #367cae;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.searchButton {
+    float: right;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+    border: 0;
+    border-left: 1px solid #d5d5d5;
+    border-collapse: collapse;
+    margin: 0;
+    background: white url(https://softuni.bg/Content/design/magn-glass-icon17.png) no-repeat 7px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* End Search*/

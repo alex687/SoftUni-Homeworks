@@ -1,0 +1,49 @@
+#clock {
+    width: 425px;
+    height: 425px;
+    margin: 0 auto;
+    background: url('../images/clock.png') center center no-repeat;
+    position: relative;
+    border: 1px solid #000;
+}
+
+#clock div {
+    position: absolute;
+    width: 24px;
+    top: 50%;
+    left: 50%;
+    margin-left: -12px;
+}
+
+#hours {
+    height: 130px;
+    margin-top: -120px;
+    background: url('../images/hours.png') center center no-repeat;
+    -webkit-transform-origin: center 120px;
+    -moz-transform-origin: center 120px;
+    -ms-transform-origin: center 120px;
+    -o-transform-origin: center 120px;
+    transform-origin: center 120px;
+}
+
+#minutes {
+    height: 150px;
+    margin-top: -140px;
+    background: url('../images/minutes.png') center center no-repeat;
+    -webkit-transform-origin: center 140px;
+    -moz-transform-origin: center 140px;
+    -ms-transform-origin: center 140px;
+    -o-transform-origin: center 140px;
+    transform-origin: center 140px;
+}
+
+#seconds {
+    height: 160px;
+    margin-top: -150px;
+    background: url('../images/seconds.png') center center no-repeat;
+    -webkit-transform-origin: center 150px;
+    -moz-transform-origin: center 150px;
+    -ms-transform-origin: center 150px;
+    -o-transform-origin: center 150px;
+    transform-origin: center 150px;
+}

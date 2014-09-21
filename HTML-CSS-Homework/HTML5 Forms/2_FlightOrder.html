@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" type="text/css" href="styles/2_style.css"/>
+</head>
+<body>
+<header>
+    <h1>Flight Order</h1>
+</header>
+<section>
+    <form method="post" action="tralalal">
+        <section id="from">
+            <label for="froms" class="block"><em>From</em></label>
+            <select name="from" class="width-250 block margin-b-15" id="froms">
+                <option value="1">Varna</option>
+                <option value="2">Miroviane</option>
+                <option value="3">Kaspichan</option>
+                <option value="4">Paluzovo</option>
+            </select>
+
+            <label for="departure_date" class="block"><em>Departure date</em></label>
+            <input type="date" min="2014-06-24" name="departure_date" class="width-250 block" id="departure_date">
+
+            <label for="return_date" class="block"><em>Return date</em></label>
+            <input type="date" min="2014-06-24" name="return_date" id="return_date" class="width-250 block margin-b-15">
+
+            <label for="12plus"><em>12+</em></label>
+            <input type="number" name="12plus" min="0" id="12plus">
+
+            <label for="2to12"><em>2-12</em></label>
+            <input type="number" name="2to12" min="0" id="2to12">
+
+            <label for="0to2"><em>0-2</em></label>
+            <input type="number" name="0to2" min="0" id="0to2">
+
+        </section>
+
+        <section>
+            <label for="to" class="block"><em>To</em></label>
+            <select name="to" class="width-250 block" id="to">
+                <option value="1">Varna</option>
+                <option value="2">Miroviane</option>
+                <option value="3">Kaspichan</option>
+                <option value="4">Paluzovo</option>
+            </select>
+
+            <input type="checkbox" name="preferDirects" id="preferDirects"> <label for="preferDirects">Prefer directs</label> <br/>
+
+            <label for="start" class="block"><em>Time interval date</em></label>
+            <input type="time" name="start" id="start">
+            <input type="time" name="end"/>
+
+            <label for="start1" class="block"><em>Time interval date</em></label>
+            <input type="time" name="start1" id="start1">
+            <input type="time" name="end1">
+
+            <label for="class" class="block"><em>Choose class</em></label>
+            <select name="class" class="width-250 block" id="class">
+                <option value="1">Beden</option>
+                <option value="2">Sreden</option>
+                <option value="3">Bogat</option>
+                <option value="4">Izvynzemno</option>
+            </select>
+        </section>
+
+    </form>
+</section>
+</body>
+</html>

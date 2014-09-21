@@ -1,0 +1,48 @@
+body {
+    background-color: #ffc0cb;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+meter {
+    width: 250px;
+}
+
+img {
+    width: 250px;
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    margin-right: 10px;
+    float: left;
+}
+
+#first-audio {
+    height: 170px;
+    background-color: #000;
+    display: inline-block;
+}
+
+#first-audio audio {
+    margin-top: 50px;
+}
+
+audio {
+    display: block;
+    margin-bottom: 5px;
+}
+
+video{
+    height: 280px;
+}
