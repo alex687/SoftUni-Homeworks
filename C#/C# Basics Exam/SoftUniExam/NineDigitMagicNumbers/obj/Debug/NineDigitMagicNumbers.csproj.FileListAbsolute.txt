@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\NineDigitMagicNumbers\bin\Debug\NineDigitMagicNumbers.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\NineDigitMagicNumbers\obj\Debug\NineDigitMagicNumbers.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\NineDigitMagicNumbers\obj\Debug\NineDigitMagicNumbers.pdb

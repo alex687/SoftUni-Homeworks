@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Half Sum\bin\Debug\Half Sum.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Half Sum\bin\Debug\Half Sum.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Half Sum\bin\Debug\Half Sum.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Half Sum\obj\Debug\Half Sum.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Half Sum\obj\Debug\Half Sum.pdb

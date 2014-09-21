@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Sunglasses\bin\Debug\Sunglasses.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Sunglasses\bin\Debug\Sunglasses.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Sunglasses\bin\Debug\Sunglasses.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Sunglasses\obj\Debug\Sunglasses.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Sunglasses\obj\Debug\Sunglasses.pdb

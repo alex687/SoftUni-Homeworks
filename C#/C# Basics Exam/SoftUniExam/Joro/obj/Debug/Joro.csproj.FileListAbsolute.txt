@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\bin\Debug\Joro.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\bin\Debug\Joro.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\bin\Debug\Joro.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\obj\Debug\Joro.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\obj\Debug\Joro.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Joro\obj\Debug\Joro.pdb

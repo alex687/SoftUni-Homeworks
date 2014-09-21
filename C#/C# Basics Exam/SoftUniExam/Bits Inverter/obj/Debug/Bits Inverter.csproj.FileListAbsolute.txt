@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Bits Inverter\bin\Debug\Bits Inverter.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Bits Inverter\bin\Debug\Bits Inverter.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Bits Inverter\bin\Debug\Bits Inverter.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Bits Inverter\obj\Debug\Bits Inverter.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\Bits Inverter\obj\Debug\Bits Inverter.pdb

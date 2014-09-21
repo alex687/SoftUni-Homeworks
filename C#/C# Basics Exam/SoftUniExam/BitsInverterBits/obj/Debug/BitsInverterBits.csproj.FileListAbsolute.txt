@@ -1,0 +1,5 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\BitsInverterBits\bin\Debug\BitsInverterBits.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\BitsInverterBits\bin\Debug\BitsInverterBits.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\BitsInverterBits\bin\Debug\BitsInverterBits.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\BitsInverterBits\obj\Debug\BitsInverterBits.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\SoftUniExam\BitsInverterBits\obj\Debug\BitsInverterBits.pdb
