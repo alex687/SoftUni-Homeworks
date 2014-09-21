@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #0a1a3e; }
+
+div#wrapper {
+  width: 960px;
+  background-color: #0094ff;
+  margin: 0 auto;
+  padding: 50px;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+  transition-delay: 0.5;
+  -webkit-transition-delay: 0.5s; }
+
+div#wrapper:hover {
+  background-color: orange; }
+
+div#wrapper section {
+  width: 90%;
+  background-color: #44b6ae;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px;
+  -webkit-transition: box-shadow 2s;
+  -moz-transition: box-shadow 2s;
+  -ms-transition: box-shadow 2s;
+  -o-transition: box-shadow 2s;
+  transition: box-shadow 2s; }
+
+div#wrapper section:hover {
+  box-shadow: 0px 0px 20px 50px orange; }
+
+#wrapper section div.shake {
+  display: inline-block;
+  width: 160px;
+  height: 110px;
+  margin: 5px;
+  border: 3px solid transparent; }
+
+div#wrapper section img {
+  width: 160px;
+  height: 110px;
+  float: left;
+  border: 3px solid #0094ff; }
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg); }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg); }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg); }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg); }
+
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg); } }
+@-webkit-keyframes RotateImage {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg); }
+
+  25% {
+    -webkit-transform: translate(200px, 50px) rotate(0deg);
+    width: 280px;
+    height: 230px; }
+
+  50% {
+    -webkit-transform: translate(200px, 50px) rotate(360deg);
+    width: 280px;
+    height: 230px; }
+
+  100% {
+    -webkit-transform: translate(0px, 0px); } }
+#wrapper section div.shake:hover {
+  background-image: url(images/MatrixBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #0094ff;
+  -webkit-animation-name: shake;
+  -webkit-animation-delay: 0.0s;
+  -webkit-animation-duration: 0.7s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: initial;
+  -webkit-animation-timing-function: linear; }
+
+#wrapper section img:hover {
+  -webkit-animation-name: RotateImage;
+  -webkit-animation-delay: 0.9s;
+  -webkit-animation-duration: 2.2s;
+  -webkit-animation-timing-function: ease; }
