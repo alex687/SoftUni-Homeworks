@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Software University"/>
+</head>
+
+<body>
+<button onclick="replaceATag()" style="width: 100px; height: 100px;">Replace all A tags</button>
+<header class="navbar-wrapper">
+    <div class="container">
+        <div class="navbar navbar-static-top" role="navigation">
+            <div class="col-sm-12">
+
+                <nav class="navbar-header">
+                    <a class="navbar-brand" href="/"><span>Software University</span>
+
+                        <div class="beta">beta</div>
+                    </a>
+                </nav>
+
+                <div class="menuContainer">
+                    <nav class="navContainer">
+
+                        <div class="logIn">
+                            <div id="search" class="searchBar">
+                                <form method="get" autocomplete="off" action="/Search/Results" class="pull-left">
+                                    <input type="text" maxlength="100" placeholder="Търси..." name="query"
+                                           class="searchInput">
+                                    <button type="submit" class="searchButton"></button>
+                                </form>
+                            </div>
+
+                            <div class="profileBox">
+
+
+                                <div id="personalPicContainer">
+
+                                </div>
+                                <form action="/account/logoff" class="accountForm" id="logoutForm" method="post"><input
+                                        name="__RequestVerificationToken" type="hidden"
+                                        value="JEfI57laPtSeuv2sPXr5LjZFSbsTVjcwe4weLnPArYQosK0yvGQ8asqAbpfq3n_SpYvnEzX6tl99I7LY1RTweGfrwjQ8Vl4oj45vBN7spEjhdj9UwcLw6CcpB9GooBiYwAewngkPxIhYtLfNMD-egA2"/>
+                                    <ul id="notificationsTab">
+                                        <li id="notifications-tab">
+                                            <a id="notifications" href="#"><span class="notifications"></span></a>
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                Test
+                                                <strong class="caret"></strong>
+                                            </a>
+
+                                            <ul class="dropdown-menu " id="dropdownAdmin">
+                                                <li><a class="custom-dropdown-header" href="/users/profile/show"
+                                                       title="Profile">Потребителски панел</a></li>
+                                                <li><a href="/account/manage" title="Manage">Управление на акаунта</a>
+                                                </li>
+                                                <li><a href="/users/profile/edit">Редактиране на профила</a></li>
+                                                <li><a href="/users/teamwork/list">Екипна работа</a></li>
+
+
+                                                <li><a href="/content/sentinel/sentinel.zip">Sentinel клиент</a></li>
+                                                <li><a href="javascript:document.getElementById('logoutForm').submit()">Изход</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /logIn -->
+                        <ul class="nav navbar-nav navix">
+
+                            <li><a href="/news">Новини</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    За университета
+                                    <strong class="caret"></strong>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="/about">За нас</a></li>
+                                    <li><a href="/professions">Професии</a></li>
+                                    <li><a href="/plans">Планове</a></li>
+                                    <li><a href="/partner-universities">Университети-партньори</a></li>
+                                    <li><a href="/trainers">Преподаватели</a></li>
+                                    <li><a href="/dorms">Общежития</a></li>
+                                    <li><a href="/apply">Кандидатстване</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Обучения
+                                    <strong class="caret"></strong>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="custom-dropdown-header" href="/trainings/courses/list">Курсове</a>
+                                    </li>
+                                    <li><a href="/trainings/coursesinstances/details/1">Java Basics май 2014</a></li>
+                                    <li><a href="/trainings/coursesinstances/details/2">C# Basics март 2014</a></li>
+                                    <li><a href="/trainings/coursesinstances/details/1036">C# Basics май 2014</a></li>
+                                    <li><a href="/trainings/coursesinstances/details/1048">C# Basics юли 2014</a></li>
+                                    <li><a href="/trainings/coursesinstances/details/3">Web Fundamentals (HTML + CSS)
+                                        май 2014</a></li>
+                                    <li><a href="/trainings/coursesinstances/details/4">JavaScript Basics юли 2014</a>
+                                    </li>
+                                    <li><a href="/trainings/coursesinstances/details/6">Teamwork and Personal Skills май
+                                        2014</a></li>
+                                    <li><a class="custom-dropdown-header" href="/trainings/fasttracks">Fast track
+                                        курсове</a></li>
+                                    <li><a href="/trainings/fasttracks/details/1034">HTML/CSS (June 2014)</a></li>
+                                    <li><a href="/trainings/fasttracks/details/1033">PHP/MySQL (June 2014)</a></li>
+
+                                    <li><a class="custom-dropdown-header" href="/trainings/seminars/list">Семинари</a>
+                                    </li>
+                                    <li><a href="/trainings/seminars/details/1051">JavaScript for .Net Developers</a>
+                                    </li>
+                                    <li><a href="/trainings/seminars/details/1052">Ларавел - първи стъпки</a></li>
+                                    <li><a href="/trainings/seminars/details/1053">Сигурност на уеб приложенията и до
+                                        какво водят пропуските в сигурността</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="/companies">Работа</a></li>
+                            <li><a href="/forum">Форум</a></li>
+                            <li><a href="/contacts">Контакти</a></li>
+
+
+                        </ul>
+                        <!-- /nav navbar-nav navix -->
+
+                    </nav>
+                    <!-- /navbar-collapse collapse -->
+                    <a href="javascript:;" id="toggleNavigation">
+                        <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">
+                            <defs>
+            </defs>
+                            <line id="topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="2.5" x2="32.5" y2="2.5" />
+                            <line id="middleLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="12.5" x2="32.5" y2="12.5" />
+                            <line id="bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="22.5" x2="32.5" y2="22.5" />
+        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="smallHeader">
+    <div class="container">
+        <div class="col-sm-12 clearfix">
+            <h2 class="breadcrumb pull-left">
+
+
+            </h2>
+
+            <div class="col-md-4 candidate-btn pull-right text-right">
+                <a href="/apply" class="btn btn-success candidateStatus">Кандидатствай</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="body-content">
+
+
+<div class="container">
+<div class="col-md-12">
+    <h2>Новини</h2>
+
+</div>
+<div class="newsList">
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/new-courses-and-timetable-from-September">Нови обучения започват от септември в
+                        СофтУни</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">23/07/2014</div>
+                    <div class=" pull-left">Публикувано от: Petya Grozdarska</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/50">
+                    <div class="newsListThumb"><img src="/Files/Publications/2014/07/softuni-students_131934198.jpg"
+                                                    alt="Нови обучения започват от септември в СофтУни"
+                                                    class="img-responsive" width="100%"/></div>
+                    <div class="newsDetails">Тук можете да видите и график за есента</div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/13" rel="tag">софтуерен-университет</a>
+                    <a href="/tags/page/17" rel="tag">курс</a>
+                    <a href="/tags/page/23" rel="tag">software-engineering</a>
+                    <a href="/tags/page/92" rel="tag">course</a>
+                    <a href="/tags/page/93" rel="tag">programming</a>
+                    <a href="/tags/page/101" rel="tag">програмиране</a>
+                    <a href="/tags/page/102" rel="tag">home-page</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/185" rel="tag">софтуни</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/application-deadline-extended-july">Ниво #0 стартира на 5 юли</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">18/06/2014</div>
+                    <div class=" pull-left">Публикувано от: Alexandra Svilarova</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/49">
+                    <div class="newsListThumb"><img
+                            src="/Files/Publications/2014/06/3-of-july-calendar-icon-Download-Royalty-free-Vector-File-EPS-14332_17222654.jpg"
+                            alt="Ниво #0 стартира на 5 юли" class="img-responsive" width="100%"/></div>
+                    <div class="newsDetails">Удължен е срокът за кандидатстване до 3 юли</div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/13" rel="tag">софтуерен-университет</a>
+                    <a href="/tags/page/102" rel="tag">home-page</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/155" rel="tag">apply</a>
+                    <a href="/tags/page/157" rel="tag">deadline</a>
+                    <a href="/tags/page/158" rel="tag">кандидатстване</a>
+                    <a href="/tags/page/188" rel="tag">application</a>
+                    <a href="/tags/page/189" rel="tag">admission</a>
+                    <a href="/tags/page/190" rel="tag">срок</a>
+                    <a href="/tags/page/191" rel="tag">удължаване</a>
+                    <a href="/tags/page/250" rel="tag">July</a>
+                    <a href="/tags/page/251" rel="tag">юли</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/summer-vacation">Лятна почивка + график за ниво #1</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">13/06/2014</div>
+                    <div class=" pull-left">Публикувано от: Alexandra Svilarova</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/48">
+                    <div class="newsListThumb"><img src="/Files/Publications/2014/06/images_154549699.jpg"
+                                                    alt="Лятна почивка + график за ниво #1" class="img-responsive"
+                                                    width="100%"/></div>
+                    <div class="newsDetails">Лятна почивка от 2 до 10 август</div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/13" rel="tag">софтуерен-университет</a>
+                    <a href="/tags/page/102" rel="tag">home-page</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/185" rel="tag">софтуни</a>
+                    <a href="/tags/page/209" rel="tag">schedule</a>
+                    <a href="/tags/page/248" rel="tag">summer-vacation</a>
+                    <a href="/tags/page/249" rel="tag">exams</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/softuni-conf-may-2014-feedback">Feedback от СофтУни Конф Май 2014</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">02/06/2014</div>
+                    <div class=" pull-left">Публикувано от: Petya Grozdarska</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/47">
+                    <div class="newsListThumb"><img src="/Files/Publications/2014/06/softuni-conf-news_164223324.jpg"
+                                                    alt="Feedback от СофтУни Конф Май 2014" class="img-responsive"
+                                                    width="100%"/></div>
+                    <div class="newsDetails">Отговори от анкетата ни за полезността на първия СофтУни Конф</div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/13" rel="tag">софтуерен-университет</a>
+                    <a href="/tags/page/102" rel="tag">home-page</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/185" rel="tag">софтуни</a>
+                    <a href="/tags/page/240" rel="tag">softuni-conf</a>
+                    <a href="/tags/page/241" rel="tag">conference</a>
+                    <a href="/tags/page/242" rel="tag">feedback</a>
+                    <a href="/tags/page/243" rel="tag">софтуни-конф</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/new-fast-track-courses">Нови Fast track курсове: запишете се до 4 юни</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">21/05/2014</div>
+                    <div class=" pull-left">Публикувано от: Petya Grozdarska</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/46">
+                    <div class="newsListThumb"><img
+                            src="/Files/Publications/2014/05/student-fast-track-course_13435276.png"
+                            alt="Нови Fast track курсове: запишете се до 4 юни" class="img-responsive" width="100%"/>
+                    </div>
+                    <div class="newsDetails">12-седмични курсове по HTML/CSS, PHP/MySQL и Photoshop започват от юни
+                    </div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/92" rel="tag">course</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/232" rel="tag">fast-track</a>
+                    <a href="/tags/page/233" rel="tag">php</a>
+                    <a href="/tags/page/234" rel="tag">mysql</a>
+                    <a href="/tags/page/235" rel="tag">php-mysql</a>
+                    <a href="/tags/page/236" rel="tag">html</a>
+                    <a href="/tags/page/237" rel="tag">css</a>
+                    <a href="/tags/page/238" rel="tag">html-css</a>
+                    <a href="/tags/page/239" rel="tag">photoshop</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box">
+            <div class="panel-body">
+                <h5>
+                    <a href="/news/new-level-0-starts-in-may">Ниво #0 стартира отново на 21 юни - запишете се!</a>
+                </h5>
+
+                <div class="clearfix">
+                    <div class="date pull-right">30/04/2014</div>
+                    <div class=" pull-left">Публикувано от: Petya Grozdarska</div>
+                </div>
+                <hr>
+                <a href="/cms/news/details/45">
+                    <div class="newsListThumb"><img src="/Files/Publications/2014/04/level-0-sign-up-news_153017707.jpg"
+                                                    alt="Ниво #0 стартира отново на 21 юни - запишете се!"
+                                                    class="img-responsive" width="100%"/></div>
+                    <div class="newsDetails">Запишете за подготвителния курс по основи на програмирането още днес</div>
+                </a>
+                <hr>
+                <div class="tagLine">
+                    <strong>Тагове:</strong>
+                    <a href="/tags/page/5" rel="tag">software-university</a>
+                    <a href="/tags/page/13" rel="tag">софтуерен-университет</a>
+                    <a href="/tags/page/115" rel="tag">softuni</a>
+                    <a href="/tags/page/155" rel="tag">apply</a>
+                    <a href="/tags/page/158" rel="tag">кандидатстване</a>
+                    <a href="/tags/page/185" rel="tag">софтуни</a>
+                    <a href="/tags/page/197" rel="tag">signup</a>
+                    <a href="/tags/page/231" rel="tag">ниво</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-12">
+    <div class="pagination btn-group">
+        <a href="#" class="btn btn-primary">
+            1
+        </a>
+        <a href="/news/page/1/6" class="btn btn-default">
+            2
+        </a>
+        <a href="/news/page/2/6" class="btn btn-default">
+            3
+        </a>
+        <a href="/news/page/3/6" class="btn btn-default">
+            4
+        </a>
+        <a href="/news/page/4/6" class="btn btn-default">
+            5
+        </a>
+        <a href="/news/page/1/6" class="btn btn-default">
+            >
+        </a>
+        <!-- kill that shit-->
+    </div>
+</div>
+</div>
+
+</div>
+
+<footer>
+    <div class="col-sm-12">
+        <div class="container">
+            <div class="col-sm-2 actions">
+                <a href="/users/candidate/register">Кандидатствай</a>
+                <a href="/trainings/fasttracks">Fast track курсове</a>
+            </div>
+            <!-- /col-sm-2 -->
+            <div class="col-sm-2">
+                <h2>За университета</h2>
+                <ul>
+                    <li><a href="/about">За нас</a></li>
+                    <li><a href="/professions">Професии</a></li>
+                    <li><a href="/plans">Планове</a></li>
+                    <li><a href="/partner-universities">Университети-партньори</a></li>
+                    <li><a href="/trainers">Преподаватели</a></li>
+                    <li><a href="/dorms">Общежития</a></li>
+                    <li><a href="/apply">Кандидатстване</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h2>Нашите приятели</h2>
+                <ul>
+                    <li><a href="http://nakov.com/">Светлин Наков блог</a></li>
+                    <li><a href="http://introprogramming.info/">C# книга</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2>Software University Learning System - 1.0.5316</h2>
+                <span>© 2013-2014  - Software University. All Rights Reserved.</span><br/><br/>
+                <ul class="social clearfix">
+                    <li><a title="Twitter" target="_blank" href="https://twitter.com/softunibg"><img alt="Twitter"
+                                                                                                     src="/Content/design/twitter.png"></a>
+                    </li>
+                    <li><a title="Facebook" target="_blank" href="https://www.facebook.com/SoftwareUniversity"><img
+                            alt="Facebook" src="/Content/design/facebook.png"></a></li>
+                    <li><a title="Google Plus" target="_blank" href="https://plus.google.com/+SoftuniBg"><img
+                            alt="Google Plus" src="/Content/design/googleplus.png"></a></li>
+                </ul>
+            </div>
+            <!-- /col-sm-3 -->
+            <div id="fb-like-box-wrapper" class="col-sm-3">
+                <div class="fb-like-box"
+                     data-href="https://www.facebook.com/SoftwareUniversity"
+                     data-width="286"
+                     data-height="200"
+                     data-header="false"
+                     data-colorscheme="light"
+                     data-show-faces="true"
+                     data-stream="false"
+                     data-show-border="false">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<div id="fb-root"></div>
+
+<script type="text/javascript" src="scripts/aTagReplacer.js"></script>
+
+</body>
+</html>
