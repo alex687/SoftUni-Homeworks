@@ -19,67 +19,64 @@ function Solve(input) {
     }
 
     function checkForO(width, height, i, j) {
-    //    if (i + 1 < height && j + 1 < width) {
+        if (i + 1 < height && j + 1 < width) {
             if (input[i + 1][j] == 'o'
                 && input[i][j + 1] == 'o'
                 && input[i + 1][j + 1] == 'o')
                 return true;
-      //  }
+        }
         return false;
     }
 
     function checkForT(width, height, i, j) {
-      //  if (j + 2 < width && i + 1 < height) {
+        if (j + 2 < width && i + 1 < height) {
             if (input[i + 1][j + 1] == 'o' && input[i][j + 1] == 'o' && input[i][j + 2] == 'o') {
                 return true;
             }
-      //  }
+        }
         return false;
     }
 
     function checkForS(width, height, i, j) {
-       //if (i - 1 > -1 && j + 2 < width) {
+       if (i - 1 > -1 && j + 2 < width) {
             if (input[i+1][j] == 'o' && input[i+1][j -1] == 'o' && input[i][j + 1] == 'o') {
                 return true;
             }
-        //}
+        }
         return false;
     }
 
     function checkForZ(width, height, i, j) {
-        //if (i + 1 < height && j + 2 < width) {
+        if (i + 1 < height && j + 2 < width) {
             if (input[i+1][j ] == 'o' && input[i + 1][j + 1] == 'o' && input[i][j -1] == 'o') {
                 return true;
             }
-       // }
+        }
         return false;
     }
 
 
     function checkForL(width, height, i, j) {
-       // if (i + 2 < height && j + 1 < width) {
+        if (i + 2 < height && j + 1 < width) {
             if (input[i + 1][j] == 'o' && input[i + 2][j] == 'o' && input[i + 2][j + 1] == 'o') {
                 return true;
             }
-      //  }
+        }
         return false;
     }
 
 
     function checkForJ(width, height, i, j) {
-       // if (i + 2 < height && j - 1 > -1) {
+        if (i + 2 < height && j - 1 > -1) {
             if (input[i][j] == 'o' && input[i + 1][j] == 'o' && input[i + 2][j] == 'o' && input[i + 2][j - 1] == 'o') {
                 return true;
             }
-      //  }
+        }
         return false;
     }
 
     var width = input[0].length;
     var height = input.length;
-    input[input.length]={};
-    input[input.length]={};
-    input[input.length]={};
     //console.log(width+"-"+height);
 
     var output = {"I" : 0, "L" : 0, "J" : 0, "O" : 0, "Z" : 0 , "S" : 0, "T" : 0}
