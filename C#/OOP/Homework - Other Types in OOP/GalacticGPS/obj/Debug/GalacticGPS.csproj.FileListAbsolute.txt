@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\bin\Debug\GalacticGPS.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\obj\Debug\GalacticGPS.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\bin\Debug\GalacticGPS.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\bin\Debug\GalacticGPS.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\obj\Debug\GalacticGPS.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GalacticGPS\obj\Debug\GalacticGPS.pdb

@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\bin\Debug\GenericList.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\bin\Debug\GenericList.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\bin\Debug\GenericList.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\obj\Debug\GenericList.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\obj\Debug\GenericList.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\GenericList\obj\Debug\GenericList.csprojResolveAssemblyReference.cache

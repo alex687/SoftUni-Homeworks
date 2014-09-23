@@ -1,0 +1,7 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\bin\Debug\WordDocumentGenerator.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\bin\Debug\DocX.dll
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Other Types in OOP\WordDocumentGenerator\obj\Debug\WordDocumentGenerator.pdb
