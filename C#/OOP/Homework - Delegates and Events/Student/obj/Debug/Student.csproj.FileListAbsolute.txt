@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\bin\Debug\Student.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\obj\Debug\Student.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\bin\Debug\Student.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\bin\Debug\Student.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\obj\Debug\Student.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Student\obj\Debug\Student.pdb
