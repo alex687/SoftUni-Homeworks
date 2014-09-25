@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\bin\Debug\Students.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\obj\Debug\Students.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\bin\Debug\Students.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\bin\Debug\Students.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\obj\Debug\Students.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\Students\obj\Debug\Students.pdb

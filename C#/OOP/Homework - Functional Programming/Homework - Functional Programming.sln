@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtensions", "StringBuilder Extensions\StringBuilderExtensions.csproj", "{B4F1E91F-2AE9-4E95-A3B6-684F2B53BB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLINQExtensionMethods", "CustomLINQExtensionMethods\CustomLINQExtensionMethods.csproj", "{DF20C7BE-52CD-4873-94D4-AD190D97674F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F1E91F-2AE9-4E95-A3B6-684F2B53BB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F1E91F-2AE9-4E95-A3B6-684F2B53BB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F1E91F-2AE9-4E95-A3B6-684F2B53BB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F1E91F-2AE9-4E95-A3B6-684F2B53BB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF20C7BE-52CD-4873-94D4-AD190D97674F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF20C7BE-52CD-4873-94D4-AD190D97674F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF20C7BE-52CD-4873-94D4-AD190D97674F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF20C7BE-52CD-4873-94D4-AD190D97674F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
