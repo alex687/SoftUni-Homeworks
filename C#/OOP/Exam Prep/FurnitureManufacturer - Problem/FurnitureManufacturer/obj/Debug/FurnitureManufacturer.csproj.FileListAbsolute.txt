@@ -1,0 +1,6 @@
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\obj\Debug\FurnitureManufacturer.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\bin\Debug\Furnitures.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\bin\Debug\Furnitures.pdb
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\obj\Debug\Furnitures.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\OOPExamPrep\FurnitureManufacturer\obj\Debug\Furnitures.pdb
