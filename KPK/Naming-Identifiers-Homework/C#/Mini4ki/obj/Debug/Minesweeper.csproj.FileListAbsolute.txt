@@ -1,0 +1,5 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Naming-Identifiers-Homework\C#\Mini4ki\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Naming-Identifiers-Homework\C#\Mini4ki\obj\Debug\Minesweeper.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Naming-Identifiers-Homework\C#\Mini4ki\bin\Debug\Minesweeper.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Naming-Identifiers-Homework\C#\Mini4ki\bin\Debug\Minesweeper.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Naming-Identifiers-Homework\C#\Mini4ki\obj\Debug\Minesweeper.pdb
