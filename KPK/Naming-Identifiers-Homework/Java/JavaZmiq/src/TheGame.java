@@ -1,25 +1,23 @@
 import java.awt.Canvas;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.image.BufferedImage;
 
 @SuppressWarnings("serial")
-public class Igr1t1 extends Canvas implements Runnable {
-	public static EbasiZmiqta moitaZmia;
-	public static Qbalkata apalkata;
+public class TheGame extends Canvas implements Runnable {
+	public static Snake snake;
+	public static Apple apple;
 	static int to4ki;
 	
 	private Graphics globalGraphics;
 	private Thread runThread;
-	public static final int WIDTH = 600;
+	public static final int width = 600;
 	public static final int height = 600;
-	private final Dimension naIgr1t1Razmera = new Dimension(WIDTH, height);
+	private final Dimension gameDimensions = new Dimension(width, height);
 	
 	static boolean gameRunning = false;
 	
 	public void paint(Graphics g){
-		this.setPreferredSize(naIgr1t1Razmera);
+		this.setPreferredSize(gameDimensions);
 		globalGraphics = g.create();
 		to4ki = 0;
 		
@@ -32,27 +30,25 @@ public class Igr1t1 extends Canvas implements Runnable {
 	
 	public void run(){
 		while(gameRunning){
-			moitaZmia.tick();
+			snake.tick();
 			render(globalGraphics);
 			try {
-				Thread.sleep(100);
+				Thread.sleep(120);
 			} catch (Exception e) {
-				// TODO: fani ma za eksep6ana
 			}
 		}
 	}
 	
-	public Igr1t1(){	
-		moitaZmia = new EbasiZmiqta();
-		apalkata = new Qbalkata(moitaZmia);
+	public TheGame(){	
+		snake = new Snake();
+		apple = new Apple(snake);
 	}
 		
 	public void render(Graphics g){
-		g.clearRect(0, 0, WIDTH, height+25);
-		
-		g.drawRect(0, 0, WIDTH, height);			
-		moitaZmia.narisuvaiZmiata(g);
-		apalkata.drawQbalkata(g);
+	    g.clearRect(0,0, width, height+25);
+		g.drawRect(0, 0, width, height);			
+		snake.render(g);
+		apple.draw(g);
 		g.drawString("score= " + to4ki, 10, height + 25);		
 	}
 }
