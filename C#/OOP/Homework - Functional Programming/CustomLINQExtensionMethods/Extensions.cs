@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CustomLINQExtensionMethods
+﻿namespace CustomLINQExtensionMethods
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public static class Extensions
     {
         public static IEnumerable<T> Repeat<T>(this IEnumerable<T> collection, int count)
@@ -13,15 +11,15 @@ namespace CustomLINQExtensionMethods
             IEnumerable<T> newCollection = collection.ToArray();
             for (int i = 0; i < count; i++)
             {
-                newCollection.Concat(collection);
+                newCollection = newCollection.Concat(collection);
             }
 
             return newCollection;
         }
 
-        public static IEnumerable<string> WhereEndsWith<string>(this IEnumerable<string> collection, this IEnumerable<string> suffixes)
+        public static IEnumerable<string> WhereEndsWith(this IEnumerable<string> collection, IEnumerable<string> suffixes)
         {
-            List<string> filtered = new List<string>();
+            var filtered = new List<string>();
             foreach (var item in collection)
             {
                 foreach (var suffix in suffixes)

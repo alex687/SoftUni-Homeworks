@@ -21,13 +21,17 @@ namespace Students
             
             List<Student> students = new List<Student>()
             {
-                new Student("Robert", "De Niro", "284933914", "+3598752156", "robi@mail.bg", ExelentMarks, 50, "Himiq"),
-                new Student("Danny", "DeVito", "4982589391", "0254896515", "dani@abv.bg", ExelentMarks, 30, "Himiq"),
-                new Student("George", "Clooney", "1234614589", "+3592478435", "george@gmail.bg", PoorMarks, 20, "Fizika"),
-                new Student("Dustin", "Hoffman", "812328919845", "+35921478435", "dustin@gmail.bg", PoorMarks, 23, "Matematika"),
+                new Student("Robert", "De Niro", "284933914", "+3598752156", "robi@mail.bg", ExelentMarks, 50, "Himiq", 1),
+                new Student("Danny", "DeVito", "4982589391", "0254896515", "dani@abv.bg", ExelentMarks, 30, "Himiq", 2),
+                new Student("George", "Clooney", "1234614589", "+3592478435", "george@gmail.bg", PoorMarks, 20, "Fizika", 1),
+                new Student("Dustin", "Hoffman", "1234614589", "+35921478435", "dustin@gmail.bg", PoorMarks, 23, "Matematika", 2),
             };
 
             // Problem 4.	Students by Group
+            Console.WriteLine("Problem 4.	Students by Group");
+            Console.WriteLine("-----------------------------------------");
+            Print(Solutions.GetByGroup(students));
+            Console.WriteLine("-----------------------------------------");
 
             //Problem 5.	Students by First and Last Name
             Console.WriteLine("Problem 5.Students by First and Last Name");
@@ -85,6 +89,20 @@ namespace Students
             Console.WriteLine("Problem 13.*Students by Groups");
             Console.WriteLine("-----------------------------------------");
              Solutions.GroupStudents(students);
+            Console.WriteLine("-----------------------------------------");
+
+            //Problem 14.	* Students Joined To Specialties
+            Console.WriteLine("Problem 14.* Students Joined To Specialties");
+            Console.WriteLine("-----------------------------------------");
+            var specialties = new List<StudentSpecialty>() 
+            { 
+                new StudentSpecialty("Web Developer", "284933914"),
+                new StudentSpecialty("QA", "4982589391"),
+                new StudentSpecialty("Web Developer", "800014"),
+                new StudentSpecialty("QA", "850014"),
+                new StudentSpecialty("Web Developer", "1234614589"),
+            };
+            Solutions.JoinStudentsWithSpecialties(students, specialties);
             Console.WriteLine("-----------------------------------------");
 
         }

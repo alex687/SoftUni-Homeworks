@@ -1,4 +1,3 @@
-c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\StringBuilder Extensions\obj\Debug\StringBuilderExtensions.csprojResolveAssemblyReference.cache
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\StringBuilder Extensions\bin\Debug\StringBuilder Extensions.exe.config
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\StringBuilder Extensions\bin\Debug\StringBuilder Extensions.exe
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Functional Programming\StringBuilder Extensions\bin\Debug\StringBuilder Extensions.pdb

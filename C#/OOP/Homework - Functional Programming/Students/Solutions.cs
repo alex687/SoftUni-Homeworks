@@ -103,5 +103,31 @@ namespace Students
                 }
             }
         }
+
+        public static void JoinStudentsWithSpecialties(List<Student> students, List<StudentSpecialty> specialties)
+        {
+            var studentSpecialty = from st in students
+                   join sp in specialties
+                   on st.FacultyNumber equals sp.FacultyNumber
+                   orderby st.FirstName
+                   select new
+                   {
+                       FullName = st.FirstName + " " + st.LastName,
+                       FacNum = st.FacultyNumber,
+                       Specialty = sp.SpecialtyName
+                   };
+
+            foreach (var item in studentSpecialty)
+            {
+                Console.WriteLine("{0,-20} - {1,-20} - {2}", item.FullName, item.Specialty, item.FacNum);
+            }
+        }
+
+        internal static IEnumerable<Student> GetByGroup(List<Student> students)
+        {
+            return from s in students
+                   where s.GroupNumber == 2
+                   select s;
+        }
     }
 }

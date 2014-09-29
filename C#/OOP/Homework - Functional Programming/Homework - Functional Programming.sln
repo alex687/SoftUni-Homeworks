@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLINQExtensionMethods"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtoExcel", "LINQtoExcel\LINQtoExcel.csproj", "{48288606-C5E4-42A9-AFC7-BF8E808FD61F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B512CB2D-C9B3-464D-A013-7E8F357F0DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48288606-C5E4-42A9-AFC7-BF8E808FD61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48288606-C5E4-42A9-AFC7-BF8E808FD61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48288606-C5E4-42A9-AFC7-BF8E808FD61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48288606-C5E4-42A9-AFC7-BF8E808FD61F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

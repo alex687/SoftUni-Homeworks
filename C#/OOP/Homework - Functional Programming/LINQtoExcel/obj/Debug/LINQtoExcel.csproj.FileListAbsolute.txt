@@ -1,0 +1,7 @@
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\bin\Debug\LINQtoExcel.exe.config
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\bin\Debug\LINQtoExcel.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\bin\Debug\LINQtoExcel.pdb
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\obj\Debug\LINQtoExcel.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\obj\Debug\LINQtoExcel.pdb
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\bin\Debug\EPPlus.dll
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Functional Programming\LINQtoExcel\bin\Debug\EPPlus.xml
