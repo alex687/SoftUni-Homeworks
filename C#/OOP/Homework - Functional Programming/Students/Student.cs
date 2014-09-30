@@ -1,10 +1,20 @@
 ﻿namespace Students
 {
+    using System;
     using System.Collections.Generic;
     using System.Text;
 
     public class Student
     {
+        private string groupName;
+        private IList<int> marks;
+        private string firstName;
+        private string facultyNumber;
+        private string email;
+        private string phone;
+        private int age;
+        private string lastName;
+
         public Student(string firstName, string lastName, string facultyNumber, string phoneNumber, string email, IList<int> marks, int age, string groupName, int groupNumber)
         {
             this.FirstName = firstName;
@@ -18,23 +28,153 @@
             this.GroupNumber = groupNumber;
         }
 
-        public string FirstName { get; private set; }
-        
-        public string LastName { get; private set; }
+        public string GroupName
+        {
+            get
+            {
+                return this.groupName;
+            }
 
-        public string FacultyNumber { get; private set; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("GroupName", "GroupName can not be null or empty!");
+                }
 
-        public string Phone { get; private set; }
+                this.groupName = value;
+            }
+        }
 
-        public string Email { get; private set; }
+        public IList<int> Marks
+        {
+            get
+            {
+                return this.marks;
+            }
 
-        public IList<int> Marks { get; private set; }
+            set
+            {
+                if (null == value)
+                {
+                    throw new ArgumentNullException("Marks", "Marks list can not be null!");
+                }
 
-        public int Age { get; private set; }
+                this.marks = value;
+            }
+        }
 
-        public string GroupName { get; private set; }
+        public int GroupNumber { get; set; }
 
-        public int GroupNumber { get; private set; }
+        public string Email
+        {
+            get
+            {
+                return this.email;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("Email", "Email can not be null or empty!");
+                }
+
+                this.email = value;
+            }
+        }
+
+        public string Phone
+        {
+            get
+            {
+                return this.phone;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("Phone", "Phone can not be null or empty!");
+                }
+
+
+                this.phone = value;
+            }
+        }
+
+        public string FacultyNumber
+        {
+            get
+            {
+                return this.facultyNumber;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("FacultyNumber", "Faculty Number can not be null or empty!");
+                }
+
+                this.facultyNumber = value;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return this.age;
+            }
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Age can not be negative!");
+                }
+
+                this.age = value;
+            }
+        }
+
+        public string LastName
+        {
+            get
+            {
+                return this.lastName;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("LastName", "Last Name can not be null or empty!");
+                }
+
+                this.lastName = value;
+            }
+        }
+
+        public string FirstName
+        {
+            get
+            {
+                return this.firstName;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("FirstName", "First Name can not be null or empty!");
+                }
+
+                this.firstName = value;
+            }
+        }
+
 
         public override string ToString()
         {
