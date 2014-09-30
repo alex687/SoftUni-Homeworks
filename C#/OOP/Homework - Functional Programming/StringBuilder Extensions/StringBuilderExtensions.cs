@@ -26,9 +26,8 @@ public static class Extensions
             oldValue = oldValue.Remove(occurance, text.Length);
             occurance = oldValue.IndexOf(text, StringComparison.OrdinalIgnoreCase);
         }
+
         str.Clear();
         str.Append(oldValue);
     }
 }
-
-

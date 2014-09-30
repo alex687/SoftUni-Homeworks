@@ -2,8 +2,9 @@
 {
     using System;
     using System.Threading;
-    using T=Time;
-    class Program
+    using T = Time;
+    
+    public class Program
     {
         public static void Main()
         {
@@ -17,7 +18,8 @@
             Console.WriteLine("TEST");
         }
 
-        private static void Timer_TimeChanged(object sender,
+        private static void Timer_TimeChanged(
+            object sender,
             T.TimeChangedEventArgs eventArgs)
         {
             Console.WriteLine("Timer! Ticks left = {0}", eventArgs.Ticks);

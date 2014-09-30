@@ -1,6 +1,6 @@
 ﻿namespace Asynchronous_Timer.Time
 {
-    class TimeChangedEventArgs : System.EventArgs
+    public class TimeChangedEventArgs : System.EventArgs
     {
         public TimeChangedEventArgs(int ticks)
         {

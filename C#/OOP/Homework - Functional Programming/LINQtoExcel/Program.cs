@@ -7,15 +7,14 @@
     using System.Text;
     using System.Threading;
 
-    class Program
+   public class Program
     {
         private const string FilePath = "\\data\\Students-data.txt";
         private const bool SkipFirstLineDocument = true;
 
-        static void Main(string[] args)
+      public static void Main(string[] args)
         {
             Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
-
 
             IList<Student> students = new List<Student>();
             var location = System.Reflection.Assembly.GetExecutingAssembly().Location;
@@ -23,15 +22,15 @@
 
             if (File.Exists(directoryName + FilePath))
             {
-                using (StreamReader stReader = new StreamReader(directoryName + FilePath, Encoding.GetEncoding("UTF-8")))
+                using (StreamReader studentsReader = new StreamReader(directoryName + FilePath, Encoding.GetEncoding("UTF-8")))
                 {
                     string line;
                     if (SkipFirstLineDocument)
                     {
-                        line = stReader.ReadLine();
+                        line = studentsReader.ReadLine();
                     }
 
-                    line = stReader.ReadLine();
+                    line = studentsReader.ReadLine();
                     while (line != null)
                     {
                         var data = line.Split(new[] { '\t' }, StringSplitOptions.RemoveEmptyEntries);
@@ -49,10 +48,8 @@
                                 int.Parse(data[8]),
                                 float.Parse(data[9]),
                                 float.Parse(data[10]),
-                                float.Parse(data[11])
-                                ));
+                                float.Parse(data[1])));
                         }
-
                         catch (SystemException se)
                         {
                             if (se is FormatException || se is ArgumentNullException || se is IndexOutOfRangeException)
@@ -64,8 +61,7 @@
                             throw;
                         }
 
-
-                        line = stReader.ReadLine();
+                        line = studentsReader.ReadLine();
                     }
                 }
 
@@ -91,11 +87,11 @@
                 "Result"
             };
 
-               var excel =  new ExcelGenerator(
-               directoryName + "\\students.xlsx",
-                "Online students",
-                headerItems,
-                onlineStudentsChart.ToList());
+               var excel = new ExcelGenerator(
+                        directoryName + "\\students.xlsx",
+                        "Online students",
+                        headerItems,
+                        onlineStudentsChart.ToList());
                 excel.Generate();
                 Console.WriteLine("Done");
             }
@@ -103,7 +99,6 @@
             {
                 Console.WriteLine("The file is not foud -" + (directoryName + FilePath));
             }
-
         }
     }
 }

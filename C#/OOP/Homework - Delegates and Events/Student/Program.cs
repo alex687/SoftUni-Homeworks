@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Student
+﻿namespace Student
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Student student = new Student("Peter", "PePo", 15);
             student.PropertyChanged += (sender, eventArgs) =>
@@ -18,7 +14,6 @@ namespace Student
             };
             student.FirstName = "Maria";
             student.Age = 19;
-
         }
     }
 }

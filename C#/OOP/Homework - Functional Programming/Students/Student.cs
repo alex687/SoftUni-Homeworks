@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-namespace Students
+﻿namespace Students
 {
+    using System.Collections.Generic;
+    using System.Text;
+
     public class Student
     {
         public Student(string firstName, string lastName, string facultyNumber, string phoneNumber, string email, IList<int> marks, int age, string groupName, int groupNumber)
@@ -39,18 +39,19 @@ namespace Students
         public override string ToString()
         {
             var properties = this.GetType().GetProperties();
-            StringBuilder propertiesStr = new StringBuilder();
+            var propertiesStr = new StringBuilder();
             foreach (var property in properties)
             {
                 var propertyValue = property.GetValue(this);
                 if (propertyValue is List<int>)
                 {
-                    propertiesStr.Append((property.Name + ": " + string.Join(",", ((List<int>)propertyValue).ToArray()) + "\r\n"));
+                    var grades = ((List<int>)propertyValue).ToArray();
+                    propertyValue = string.Join(",", grades);
                 }
-                else
+
                 if (propertyValue != null)
                 {
-                    propertiesStr.Append(property.Name + ": " + property.GetValue(this) + "\r\n");
+                    propertiesStr.Append(property.Name + ": " + propertyValue + "\r\n");
                 }
             }
 

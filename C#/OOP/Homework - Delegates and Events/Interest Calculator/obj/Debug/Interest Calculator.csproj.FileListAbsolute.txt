@@ -4,3 +4,6 @@ c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Eve
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Interest Calculator\obj\Debug\Interest Calculator.csprojResolveAssemblyReference.cache
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Interest Calculator\obj\Debug\Interest Calculator.exe
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Interest Calculator\obj\Debug\Interest Calculator.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Homework - Delegates and Events\Interest Calculator\bin\Debug\Interest Calculator.exe.config
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Homework - Delegates and Events\Interest Calculator\obj\Debug\Interest Calculator.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Homework - Delegates and Events\Interest Calculator\obj\Debug\Interest Calculator.pdb

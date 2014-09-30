@@ -9,7 +9,7 @@
         private string email;
 
         public Student(int id, string firstName, string lastName, string email, Genders gender, StudentTypes studentType,
-                        int examResult, int homeworksSent, int homeworksEvaluated, float teamworkScore, float attendancesCount, float bonus)
+                       int examResult, int homeworksSent, int homeworksEvaluated, float teamworkScore, float attendancesCount, float bonus)
         {
             this.Id = id;
             this.FirstName = firstName;
@@ -23,12 +23,7 @@
             this.TeamworkScore = teamworkScore;
             this.Attendances = attendancesCount;
             this.Bonus = bonus;
-            this.Result = CalculateResult();
-        }
-
-        private float CalculateResult()
-        {
-            return (this.ExamResult + this.HomeworkEvaluated + this.HomeworkSent + this.TeamworkScore + this.Attendances) / 5;
+            this.Result = this.CalculateResult();
         }
 
         public int Id { get; set; }
@@ -104,5 +99,10 @@
         public float Bonus { get; set; }
 
         public float Result { get; protected set; }
+
+        private float CalculateResult()
+        {
+            return (this.ExamResult + this.HomeworkEvaluated + this.HomeworkSent + this.TeamworkScore + this.Attendances) / 5;
+        }
     }
 }

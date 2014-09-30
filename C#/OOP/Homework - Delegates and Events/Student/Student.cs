@@ -22,7 +22,6 @@
 
         public event PropertyChangedEventHandler<dynamic> PropertyChanged;
 
-        
         public string FirstName 
         {
             get

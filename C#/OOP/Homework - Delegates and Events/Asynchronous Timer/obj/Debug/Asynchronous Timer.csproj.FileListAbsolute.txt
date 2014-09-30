@@ -3,3 +3,5 @@ c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Eve
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Asynchronous Timer\bin\Debug\Asynchronous Timer.pdb
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Asynchronous Timer\obj\Debug\Asynchronous Timer.exe
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Delegates and Events\Asynchronous Timer\obj\Debug\Asynchronous Timer.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Homework - Delegates and Events\Asynchronous Timer\bin\Debug\Asynchronous Timer.exe.config
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Homework - Delegates and Events\Asynchronous Timer\obj\Debug\Asynchronous Timer.exe
