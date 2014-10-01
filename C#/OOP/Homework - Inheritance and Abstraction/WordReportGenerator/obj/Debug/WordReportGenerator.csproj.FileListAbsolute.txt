@@ -1,0 +1,6 @@
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\bin\Debug\WordReportGenerator.dll
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\bin\Debug\WordReportGenerator.pdb
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\bin\Debug\DocX.dll
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\obj\Debug\WordReportGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\obj\Debug\WordReportGenerator.dll
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\Homework - Inheritance and Abstraction\WordReportGenerator\obj\Debug\WordReportGenerator.pdb

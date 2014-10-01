@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\Human, Student and Worker.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\Human, Student and Worker.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\Human, Student and Worker.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\obj\Debug\Human, Student and Worker.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\obj\Debug\Human, Student and Worker.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\obj\Debug\Human, Student and Worker.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\bin\Debug\School.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\bin\Debug\School.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\bin\Debug\School.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\obj\Debug\School.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\School\obj\Debug\School.pdb

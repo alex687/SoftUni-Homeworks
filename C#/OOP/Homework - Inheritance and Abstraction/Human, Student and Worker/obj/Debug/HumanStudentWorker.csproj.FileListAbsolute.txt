@@ -1,0 +1,5 @@
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\HumanStudentWorker.exe.config
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\HumanStudentWorker.exe
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\bin\Debug\HumanStudentWorker.pdb
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\obj\Debug\HumanStudentWorker.exe
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\Human, Student and Worker\obj\Debug\HumanStudentWorker.pdb
