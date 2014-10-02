@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace School
+﻿namespace School
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Discipline : NamebleAndDetailsEntity
     {
         private int numberOfLectures = 0;
@@ -23,20 +23,29 @@ namespace School
 
         public int NumberOfLectures
         {
-            get { return this.numberOfLectures; }
+            get
+            {
+                return this.numberOfLectures;
+            }
+
             set
             {
                 if (value <= 0)
                 {
                     throw new ArgumentOutOfRangeException("Invalid number of lectures");
                 }
+
                 this.numberOfLectures = value;
             }
         }
 
         public ICollection<Student> Students
         {
-            get { return this.students; }
+            get
+            {
+                return this.students;
+            }
+
             set
             {
                 if (value == null || value.Count == 0)

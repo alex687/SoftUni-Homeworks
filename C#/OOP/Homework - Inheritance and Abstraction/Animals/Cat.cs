@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace Animals
+﻿namespace Animals
 {
-   public class Cat : Animal
+    using System;
+    
+    public class Cat : Animal
     {
         public Cat(string name, int age, Genders gender)
             : base(name, age, gender)

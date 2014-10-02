@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Animals
+﻿namespace Animals
 {
+    using System;
+
     public class Dog : Animal
     {
         public Dog(string name, int age, Genders gender)

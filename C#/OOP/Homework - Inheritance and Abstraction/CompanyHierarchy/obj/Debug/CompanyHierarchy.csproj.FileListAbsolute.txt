@@ -1,1 +1,6 @@
 C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.exe.config
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.exe
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\bin\Debug\CompanyHierarchy.pdb
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.exe
+C:\Users\Sa6o\documents\visual studio 2012\Projects\Homework - Inheritance and Abstraction\CompanyHierarchy\obj\Debug\CompanyHierarchy.pdb

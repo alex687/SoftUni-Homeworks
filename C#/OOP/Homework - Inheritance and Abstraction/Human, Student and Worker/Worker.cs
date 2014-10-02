@@ -16,7 +16,11 @@
 
         public float WorkHoursPerDay
         {
-            get { return this.workHoursPerDay; }
+            get
+            {
+                return this.workHoursPerDay;
+            }
+
             set
             {
                 if (value <= 0)
@@ -30,7 +34,11 @@
 
         public decimal WeekSalary
         {
-            get { return this.weekSalary; }
+            get
+            {
+                return this.weekSalary;
+            }
+
             set
             {
                 if (value <= 0)
@@ -46,6 +54,5 @@
         {
             return this.WeekSalary / (decimal)(daysPerWeek * this.WorkHoursPerDay);
         }
-
     }
 }

@@ -8,7 +8,11 @@
 
         public string Details
         {
-            get { return this.details; }
+            get
+            {
+                return this.details;
+            }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
@@ -19,6 +23,5 @@
                 this.details = value;
             }
         }
-
     }
 }

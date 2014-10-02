@@ -14,7 +14,10 @@
 
         public string FacultyNumber
         {
-            get { return this.facultyNumber; }
+            get
+            {
+                return this.facultyNumber;
+            }
 
             set
             {

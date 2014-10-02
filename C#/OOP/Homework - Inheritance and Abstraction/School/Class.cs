@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace School
+﻿namespace School
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Class : DetailsEntity
     {
         private static ICollection<string> uniqueIds;

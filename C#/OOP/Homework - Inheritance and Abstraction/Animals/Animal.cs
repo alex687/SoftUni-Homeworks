@@ -8,7 +8,7 @@
         private int age;
         private Genders gender;
 
-        public Animal(string name, int age, Genders gender)
+        protected Animal(string name, int age, Genders gender)
         {
             this.Name = name;
             this.Age = age;
@@ -17,7 +17,10 @@
 
         public string Name
         {
-            get { return this.name; }
+            get
+            {
+                return this.name;
+            }
 
             set
             {
@@ -32,18 +35,24 @@
 
         public Genders Gender
         {
-            get { return this.gender; }
+            get
+            {
+                return this.gender;
+            }
 
             set
             {
-
                 this.gender = value;
             }
         }
 
         public int Age
         {
-            get { return this.age; }
+            get
+            {
+                return this.age;
+            }
+
             set
             {
                 if (value <= 0)
@@ -54,7 +63,6 @@
                 this.age = value;
             }
         }
-
 
         public abstract void ProduceSound();
     }

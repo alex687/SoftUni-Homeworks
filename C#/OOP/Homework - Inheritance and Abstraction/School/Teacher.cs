@@ -1,5 +1,4 @@
-﻿
-namespace School
+﻿namespace School
 {
     using System;
     using System.Collections.Generic;
@@ -22,7 +21,11 @@ namespace School
 
         public ICollection<Discipline> Disciplines
         {
-            get { return this.disciplines; }
+            get
+            {
+                return this.disciplines;
+            }
+
             set
             {
                 if (value == null || value.Count == 0)

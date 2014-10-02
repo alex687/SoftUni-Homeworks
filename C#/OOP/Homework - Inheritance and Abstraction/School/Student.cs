@@ -20,10 +20,13 @@
             this.Details = details;
         }
 
-
         public string ClassNumber
         {
-            get { return this.classNumber; }
+            get
+            {
+                return this.classNumber;
+            }
+
             set
             {
                 if (Student.takenClassNumbers.Contains(value))

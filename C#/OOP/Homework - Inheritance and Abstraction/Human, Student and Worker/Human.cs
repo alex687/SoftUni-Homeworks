@@ -15,7 +15,11 @@
 
         public string FirstName
         {
-            get { return this.firstName; }
+            get
+            {
+                return this.firstName;
+            }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
@@ -29,7 +33,11 @@
 
         public string LastName
         {
-            get { return this.lastName; }
+            get
+            {
+                return this.lastName;
+            }
+
             set
             {
                 if (string.IsNullOrEmpty(value))
