@@ -3,13 +3,14 @@
     using System;
     using System.Collections.Generic;
 
-    public class Class : DetailsEntity
+    public class Class
     {
         private static ICollection<string> uniqueIds;
 
         private string uniqueId;
         private ICollection<Teacher> teachers;
         private ICollection<Student> students;
+        private string details;
 
         static Class()
         {
@@ -80,6 +81,24 @@
                 }
 
                 this.students = value;
+            }
+        }
+
+        public string Details
+        {
+            get
+            {
+                return this.details;
+            }
+
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentNullException("Empty details");
+                }
+
+                this.details = value;
             }
         }
     }

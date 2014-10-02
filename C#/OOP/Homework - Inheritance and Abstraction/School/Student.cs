@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class Student : NamebleAndDetailsEntity
+    public class Student : Person
     {
         private static IList<string> takenClassNumbers = new List<string>();
         private string classNumber;

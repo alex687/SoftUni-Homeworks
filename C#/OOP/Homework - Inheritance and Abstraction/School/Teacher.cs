@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class Teacher : NamebleAndDetailsEntity
+    public class Teacher : Person
     {
         private ICollection<Discipline> disciplines;
 

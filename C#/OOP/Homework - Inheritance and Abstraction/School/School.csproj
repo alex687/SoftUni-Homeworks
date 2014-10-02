@@ -42,8 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class.cs" />
-    <Compile Include="DetailsEntity.cs" />
-    <Compile Include="NamebleAndDetailsEntity.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Discipline.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
