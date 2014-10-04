@@ -1,0 +1,5 @@
+C:\Users\Sa6o\Desktop\DocumentSystem\Document-System\obj\Debug\DocumenStystem.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Desktop\DocumentSystem\Document-System\bin\Debug\Document-System.dll
+C:\Users\Sa6o\Desktop\DocumentSystem\Document-System\bin\Debug\Document-System.pdb
+C:\Users\Sa6o\Desktop\DocumentSystem\Document-System\obj\Debug\Document-System.dll
+C:\Users\Sa6o\Desktop\DocumentSystem\Document-System\obj\Debug\Document-System.pdb
