@@ -13,7 +13,7 @@ namespace DocumentSystem.Renderers.HTML
             this.Element = (Element)element;
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             var text = (TextElement)this.Element;
             if (text.Font != null)
@@ -21,7 +21,7 @@ namespace DocumentSystem.Renderers.HTML
                 writer.Write("<span style='");
 
                 var htmlFont = new HtmlFont(text.Font);
-                htmlFont.RenderHtml(writer);
+                htmlFont.Render(writer);
                 
                 writer.Write("'>");
             }

@@ -12,11 +12,11 @@ namespace DocumentSystem.Renderers.HTML
             this.Element = (Element)element;
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             writer.WriteLine();
             writer.Write("<p>");
-            base.RenderHtml(writer);
+            base.Render(writer);
             writer.WriteLine("</p>");
         }
 

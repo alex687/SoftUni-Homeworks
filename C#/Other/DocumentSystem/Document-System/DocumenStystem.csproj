@@ -56,6 +56,8 @@
     <Compile Include="Renderers\HTML\HtmlParagraph.cs" />
     <Compile Include="Renderers\HTML\HtmlTextElement.cs" />
     <Compile Include="Renderers\HTML\HtmlRendererFactory.cs" />
+    <Compile Include="Renderers\IRenderFactory.cs" />
+    <Compile Include="Renderers\RendererFactory.cs" />
     <Compile Include="Structure\Color.cs" />
     <Compile Include="Structure\CompositeElement.cs" />
     <Compile Include="Structure\Document.cs" />
@@ -64,7 +66,7 @@
     <Compile Include="Structure\FontStyle.cs" />
     <Compile Include="Renderers\IMSWordRenderer.cs" />
     <Compile Include="Renderers\ITextRenderer.cs" />
-    <Compile Include="Renderers\IHtmlRenderer.cs" />
+    <Compile Include="Renderers\IElementRenrer.cs" />
     <Compile Include="Structure\Hyperlink.cs" />
     <Compile Include="Structure\Heading.cs" />
     <Compile Include="Structure\Image.cs" />

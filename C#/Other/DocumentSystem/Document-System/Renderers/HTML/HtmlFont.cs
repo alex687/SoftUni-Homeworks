@@ -4,7 +4,7 @@ using DocumentSystem.Structure;
 
 namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlFont : IHtmlRenderer
+    public class HtmlFont : IElementRenrer
     {
         private Font font;
 
@@ -13,7 +13,7 @@ namespace DocumentSystem.Renderers.HTML
             this.font = font;
         }
 
-        public void RenderHtml(TextWriter writer)
+        public void Render(TextWriter writer)
         {
             if (this.font.Name != null)
             {
@@ -28,7 +28,7 @@ namespace DocumentSystem.Renderers.HTML
                 writer.Write("color:");
                 
                 var htmlColor = new HtmlColor(this.font.Color);
-                htmlColor.RenderHtml(writer);
+                htmlColor.Render(writer);
 
                 writer.Write(";");
             }

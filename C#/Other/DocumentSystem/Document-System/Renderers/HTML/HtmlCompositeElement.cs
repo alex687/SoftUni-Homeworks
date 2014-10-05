@@ -6,11 +6,11 @@ namespace DocumentSystem.Renderers.HTML
 {
     public class HtmlCompositeElement : HtmlElement
     {
-        protected IList<HtmlElement> ChildElements { get; set; }
+        protected IList<IElementRenrer> ChildElements { get; set; }
 
         public HtmlCompositeElement()
         {
-            this.ChildElements = new List<HtmlElement>();
+            this.ChildElements = new List<IElementRenrer>();
         }
 
         public HtmlCompositeElement(Element[] elements)
@@ -22,11 +22,11 @@ namespace DocumentSystem.Renderers.HTML
             }
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             foreach (var element in this.ChildElements)
             {
-                element.RenderHtml(writer);
+                element.Render(writer);
             }
         }
     }

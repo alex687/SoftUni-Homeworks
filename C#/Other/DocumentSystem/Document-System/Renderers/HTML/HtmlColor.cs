@@ -4,7 +4,7 @@ using DocumentSystem.Structure;
 
 namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlColor : IHtmlRenderer
+    public class HtmlColor : IElementRenrer
     {
         private Color color;
 
@@ -13,7 +13,7 @@ namespace DocumentSystem.Renderers.HTML
             this.color = color;
         }
 
-        public void RenderHtml(TextWriter writer)
+        public void Render(TextWriter writer)
         {
             writer.Write("#" +
                 this.color.RedValue.ToString("X2") +

@@ -11,7 +11,7 @@ namespace DocumentSystem.Renderers.HTML
             this.Element = element;
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             var image = (Image) this.Element;
             writer.Write("<img src='data:{0};base64, {1}'/>",

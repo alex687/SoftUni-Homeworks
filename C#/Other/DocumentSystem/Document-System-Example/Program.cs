@@ -42,7 +42,7 @@ class Program
 
         var htmlDoc = new HtmlDocument(doc);
         StringWriter writer = new StringWriter();
-        htmlDoc.RenderHtml(writer);
+        htmlDoc.Render(writer);
         Console.WriteLine(writer.ToString());
         
         File.WriteAllText("document.html", writer.ToString());

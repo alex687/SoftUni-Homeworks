@@ -13,7 +13,7 @@ namespace DocumentSystem.Renderers.HTML
             this.Element = (Element) element;
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             var heading = (Heading)this.Element;
             writer.WriteLine();

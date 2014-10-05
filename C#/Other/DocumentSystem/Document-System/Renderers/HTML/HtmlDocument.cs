@@ -15,7 +15,7 @@ namespace DocumentSystem.Renderers.HTML
         }
 
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             writer.WriteLine("<!DOCTYPE html>");
             writer.WriteLine("<html>");
@@ -33,7 +33,7 @@ namespace DocumentSystem.Renderers.HTML
             }
             writer.WriteLine("</head>");
             writer.WriteLine("<body>");
-            base.RenderHtml(writer);
+            base.Render(writer);
             writer.WriteLine("</body>");
             writer.WriteLine("</html>");
         }

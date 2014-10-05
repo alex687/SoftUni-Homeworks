@@ -13,13 +13,13 @@ namespace DocumentSystem.Renderers.HTML
             this.Element = element;
         }
 
-        public override void RenderHtml(TextWriter writer)
+        public override void Render(TextWriter writer)
         {
             var link = (Hyperlink)this.Element;
             writer.Write("<a href='{0}'>", link.Url.HtmlEncode());
             if (this.ChildElements.Count > 0)
             {
-                base.RenderHtml(writer);
+                base.Render(writer);
             }
             else
             {
