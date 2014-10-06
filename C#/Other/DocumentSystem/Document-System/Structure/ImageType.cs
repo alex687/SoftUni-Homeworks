@@ -1,14 +1,21 @@
-﻿using System;
-using System.IO;
-
-namespace DocumentSystem.Structure
+﻿namespace DocumentSystem.Structure
 {
+    using System;
+    using System.IO;
+
     public class ImageType
     {
+        private ImageType(string name)
+        {
+            this.Name = name;
+        }
+
         public string Name { get; private set; }
 
         public static ImageType Png { get { return new ImageType("png"); } }
+
         public static ImageType Gif { get { return new ImageType("gif"); } }
+
         public static ImageType Jpeg { get { return new ImageType("jpeg"); } }
 
         public string ContentType 
@@ -17,11 +24,6 @@ namespace DocumentSystem.Structure
             {
                 return "image/" + this.Name;
             }
-        }
-
-        private ImageType(string name)
-        {
-            this.Name = name;
         }
 
         public static ImageType CreateFromFileName(string fileName)

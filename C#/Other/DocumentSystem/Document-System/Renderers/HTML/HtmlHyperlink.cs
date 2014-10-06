@@ -1,32 +1,32 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Utils;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
+    using System.IO;
+    using Utils;
+    using Structure;
+
     public class HtmlHyperlink : HtmlCompositeElement
     {
+        private Hyperlink element;
+
         public HtmlHyperlink(Hyperlink element)
             : base(element.GetChildElements())
         {
-            this.Element = element;
+            this.element = element;
         }
 
         public override void Render(TextWriter writer)
         {
-            var link = (Hyperlink)this.Element;
-            writer.Write("<a href='{0}'>", link.Url.HtmlEncode());
+            writer.Write("<a href='{0}'>", this.element.Url.HtmlEncode());
             if (this.ChildElements.Count > 0)
             {
                 base.Render(writer);
             }
             else
             {
-                writer.Write(link.Url.HtmlEncode());
+                writer.Write(this.element.Url.HtmlEncode());
             }
+
             writer.Write("</a>");
         }
-
     }
 }

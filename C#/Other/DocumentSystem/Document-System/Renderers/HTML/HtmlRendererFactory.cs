@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
+    using DocumentSystem.Structure;
+
     public class HtmlRendererFactory : IRenderFactory
     {
         private static readonly RendererFactory Factory;
@@ -16,37 +11,37 @@ namespace DocumentSystem.Renderers.HTML
             HtmlRendererFactory.Factory = new RendererFactory(new HtmlRendererFactory());
         }
 
-        public static IElementRenrer Create(Element element)
+        public static IElementRenderer Create(Element element)
         {
             return Factory.Create(element);
         }
 
-        public IElementRenrer CreateDocumentRender(Document element)
+        public IElementRenderer CreateDocumentRender(Document element)
         {
             return new HtmlDocument((Document)element);
         }
 
-        public IElementRenrer CreateParagraphRender(Paragraph element)
+        public IElementRenderer CreateParagraphRender(Paragraph element)
         {
             return new HtmlParagraph((Paragraph)element);
         }
 
-        public IElementRenrer CreateTextElementRender(TextElement element)
+        public IElementRenderer CreateTextElementRender(TextElement element)
         {
             return new HtmlTextElement((TextElement)element);
         }
 
-        public IElementRenrer CreateHyperlinkRender(Hyperlink element)
+        public IElementRenderer CreateHyperlinkRender(Hyperlink element)
         {
             return new HtmlHyperlink((Hyperlink)element);
         }
 
-        public IElementRenrer CreateImageRender(Image element)
+        public IElementRenderer CreateImageRender(Image element)
         {
             return new HtmlImage((Image)element);
         }
 
-        public IElementRenrer CreateHeadingRender(Heading element)
+        public IElementRenderer CreateHeadingRender(Heading element)
         {
             return new HtmlHeading((Heading)element);
         }

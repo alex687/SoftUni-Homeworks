@@ -1,20 +1,20 @@
-﻿namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.Text
 {
     using System.Collections.Generic;
     using System.IO;
     using Structure;
 
-    public class HtmlCompositeElement : IElementRenderer
+    public class TxtCompositeElement : IElementRenderer
     {
         protected IList<IElementRenderer> ChildElements;
 
-        public HtmlCompositeElement(IEnumerable<Element> elements)
+        public TxtCompositeElement(IEnumerable<Element> elements)
         {
             this.ChildElements = new List<IElementRenderer>();
 
             foreach (var element in elements)
             {
-                this.ChildElements.Add(HtmlRendererFactory.Create(element));
+                this.ChildElements.Add(TxtRendererFactory.Create(element));
             }
         }
 

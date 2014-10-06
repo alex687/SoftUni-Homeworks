@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace DocumentSystem.Structure
+﻿namespace DocumentSystem.Structure
 {
+    using System;
+
     [Flags]
     public enum FontStyle
     {

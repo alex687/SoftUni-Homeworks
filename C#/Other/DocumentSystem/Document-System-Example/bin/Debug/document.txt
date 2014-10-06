@@ -1,0 +1,20 @@
+Title: My First Document
+Author: Nakov
+
+I am a paragraph
+[url=http://dir.bg][/url]
+I am another paragraph
+
+HEADING 1
+
+Default Font Second Red Green Italic
+
+Consolas Bold Blue Italic
+
+HEADING 2<BR>
+[url=http://softuni.bg]
+[image]
+some text[/url]
+Default Font Second Red Green Italic
+
+Consolas Bold Blue Italic

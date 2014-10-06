@@ -1,21 +1,24 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlImage : HtmlElement
+    using System;
+    using System.IO;
+    using Structure;
+
+    public class HtmlImage : IElementRenderer
     {
+        public Image element;
+
         public HtmlImage(Image element)
         {
-            this.Element = element;
+            this.element = element;
         }
 
-        public override void Render(TextWriter writer)
+        public void Render(TextWriter writer)
         {
-            var image = (Image) this.Element;
-            writer.Write("<img src='data:{0};base64, {1}'/>",
-                image.Type.ContentType, Convert.ToBase64String(image.Data));
+            writer.Write(
+                "<img src='data:{0};base64, {1}'/>",
+                this.element.Type.ContentType,
+                Convert.ToBase64String(this.element.Data));
         }
     }
 }

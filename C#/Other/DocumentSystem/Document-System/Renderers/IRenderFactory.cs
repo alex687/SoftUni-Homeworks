@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers
+﻿namespace DocumentSystem.Renderers
 {
+    using Structure;
+
     public interface IRenderFactory
     {
-        IElementRenrer CreateDocumentRender(Document element);
+        IElementRenderer CreateDocumentRender(Document element);
         
-        IElementRenrer CreateParagraphRender(Paragraph element);
+        IElementRenderer CreateParagraphRender(Paragraph element);
         
-        IElementRenrer CreateTextElementRender(TextElement element);
+        IElementRenderer CreateTextElementRender(TextElement element);
         
-        IElementRenrer CreateHyperlinkRender(Hyperlink element);
+        IElementRenderer CreateHyperlinkRender(Hyperlink element);
         
-        IElementRenrer CreateImageRender(Image element);
+        IElementRenderer CreateImageRender(Image element);
     
-        IElementRenrer CreateHeadingRender(Heading element);
+        IElementRenderer CreateHeadingRender(Heading element);
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using DocumentSystem.Renderers.HTML;
+using DocumentSystem.Renderers.Text;
 using DocumentSystem.Structure;
 
 class Program
@@ -41,13 +41,15 @@ class Program
         doc.Add(paragraph);
 
         var htmlDoc = new HtmlDocument(doc);
-        StringWriter writer = new StringWriter();
+        var writer = new StringWriter();
         htmlDoc.Render(writer);
         Console.WriteLine(writer.ToString());
-        
         File.WriteAllText("document.html", writer.ToString());
-        //File.WriteAllText("document.text", doc.AsText);
 
-        //Console.WriteLine(doc.AsText);
+        var txtDoc = new TxtDocument(doc);
+        writer = new StringWriter();
+        txtDoc.Render(writer);
+        Console.WriteLine(writer.ToString());
+        File.WriteAllText("document.txt", writer.ToString());
     }
 }

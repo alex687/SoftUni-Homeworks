@@ -1,13 +1,9 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Utils;
-
-namespace DocumentSystem.Structure
+﻿namespace DocumentSystem.Structure
 {
+    using System.IO;
+
     public class Hyperlink : CompositeElement
     {
-        public string Url { get; set; }
-
         public Hyperlink(string url)
         {
             this.Url = url;
@@ -18,12 +14,7 @@ namespace DocumentSystem.Structure
             this.Url = url;
             this.Add(new TextElement(text));
         }
-
-        public override void RenderText(TextWriter writer)
-        {
-            writer.Write("[url={0}]", this.Url);
-            base.RenderText(writer);
-            writer.Write("[/url]");
-        }
+        
+        public string Url { get; set; }
     }
 }

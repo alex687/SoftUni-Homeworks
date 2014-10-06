@@ -1,24 +1,25 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Structure;
-using DocumentSystem.Utils;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlHeading : HtmlElement
+    using System.IO;
+    using Structure;
+    using Utils;
+
+    public class HtmlHeading : IElementRenderer
     {
+        private Heading element;
 
         public HtmlHeading(Heading element)
         {
-            this.Element = (Element) element;
+            this.element = element;
         }
 
-        public override void Render(TextWriter writer)
+        public void Render(TextWriter writer)
         {
-            var heading = (Heading)this.Element;
             writer.WriteLine();
-            writer.WriteLine("<h{0}>{1}</h{0}>",
-                heading.HeadingSize, heading.Text.HtmlEncode());
+            writer.WriteLine(
+                "<h{0}>{1}</h{0}>",
+                this.element.HeadingSize,
+                this.element.Text.HtmlEncode());
         }
     }
 }

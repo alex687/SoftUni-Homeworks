@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace DocumentSystem.Structure
+﻿namespace DocumentSystem.Structure
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+
     public class CompositeElement : Element
     {
-        protected List<Element> ChildElements { get; set; }
-
         public CompositeElement()
         {
             this.ChildElements = new List<Element>();
@@ -19,14 +17,17 @@ namespace DocumentSystem.Structure
             this.Add(elements);
         }
 
+        protected List<Element> ChildElements { get; set; }
+
         public CompositeElement Add(params Element[] elements)
         {
             foreach (var element in elements)
             {
-                CheckForLoop(this, element);
+                this.CheckForLoop(this, element);
                 element.Parent = this;
                 this.ChildElements.Add(element);
             }
+
             return this;
         }
 
@@ -43,15 +44,8 @@ namespace DocumentSystem.Structure
                 {
                     throw new InvalidOperationException("Loops in the document structure are not allowed.");
                 }
-                parent = parent.Parent;
-            }
-        }
 
-        public override void RenderText(TextWriter writer)
-        {
-            foreach (var element in this.ChildElements)
-            {
-                element.RenderText(writer);
+                parent = parent.Parent;
             }
         }
     }

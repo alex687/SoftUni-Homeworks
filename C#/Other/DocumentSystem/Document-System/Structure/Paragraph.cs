@@ -1,8 +1,7 @@
-﻿using System;
-using System.IO;
-
-namespace DocumentSystem.Structure
+﻿namespace DocumentSystem.Structure
 {
+    using System.IO;
+
     public class Paragraph : CompositeElement
     {
         public Paragraph()
@@ -14,13 +13,6 @@ namespace DocumentSystem.Structure
             : this()
         {
             this.Add(new TextElement(text, font));
-        }
-
-        public override void RenderText(TextWriter writer)
-        {
-            writer.WriteLine();
-            base.RenderText(writer);
-            writer.WriteLine();
         }
     }
 }

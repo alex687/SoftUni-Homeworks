@@ -1,33 +1,32 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Utils;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlTextElement : HtmlElement
+    using System.IO;
+    using Utils;
+    using Structure;
+
+    public class HtmlTextElement : IElementRenderer
     {
+        private TextElement element;
 
         public HtmlTextElement(TextElement element)
         {
-            this.Element = (Element)element;
+            this.element = element;
         }
 
-        public override void Render(TextWriter writer)
+        public void Render(TextWriter writer)
         {
-            var text = (TextElement)this.Element;
-            if (text.Font != null)
+            if (this.element.Font != null)
             {
                 writer.Write("<span style='");
 
-                var htmlFont = new HtmlFont(text.Font);
+                var htmlFont = new HtmlFont(this.element.Font);
                 htmlFont.Render(writer);
                 
                 writer.Write("'>");
             }
 
-            writer.Write(text.Text.HtmlEncode());
-            if (text.Font != null)
+            writer.Write(this.element.Text.HtmlEncode());
+            if (this.element.Font != null)
             {
                 writer.Write("</span>");
             }

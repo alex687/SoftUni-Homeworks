@@ -1,8 +1,8 @@
-﻿using System;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers
+﻿namespace DocumentSystem.Renderers
 {
+    using System;
+    using Structure;
+
     public class RendererFactory
     {
         private IRenderFactory renderFactory;
@@ -12,7 +12,7 @@ namespace DocumentSystem.Renderers
             this.renderFactory = renderFactory;
         }
 
-        public IElementRenrer Create(Element element)
+        public IElementRenderer Create(Element element)
         {
             if (element is Document)
             {

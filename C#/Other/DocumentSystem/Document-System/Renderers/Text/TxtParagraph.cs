@@ -1,13 +1,12 @@
-﻿namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.Text
 {
     using System.IO;
-    using Structure;
 
-    public class HtmlParagraph : HtmlCompositeElement
+    public class TxtParagraph : TxtCompositeElement
     {
-        private Paragraph element;
+        private Structure.Paragraph element;
 
-        public HtmlParagraph(Paragraph element)
+        public TxtParagraph(Structure.Paragraph element)
             : base(element.GetChildElements())
         {
             this.element = element;
@@ -16,9 +15,8 @@
         public override void Render(TextWriter writer)
         {
             writer.WriteLine();
-            writer.Write("<p>");
             base.Render(writer);
-            writer.WriteLine("</p>");
+            writer.WriteLine();
         }
     }
 }

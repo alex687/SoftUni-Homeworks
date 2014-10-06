@@ -1,8 +1,7 @@
-﻿using System;
-using System.Web;
-
-namespace DocumentSystem.Utils
+﻿namespace DocumentSystem.Utils
 {
+    using System.Web;
+
     public static class StringExtensions
     {
         public static string HtmlEncode(this string str)

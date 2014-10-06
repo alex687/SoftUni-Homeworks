@@ -1,10 +1,9 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlFont : IElementRenrer
+    using System.IO;
+    using Structure;
+
+    public class HtmlFont : IElementRenderer
     {
         private Font font;
 
@@ -19,10 +18,12 @@ namespace DocumentSystem.Renderers.HTML
             {
                 writer.Write("font-family:{0};", this.font.Name);
             }
+
             if (this.font.Size != null)
             {
                 writer.Write("font-size:{0}pt;", this.font.Size);
             }
+
             if (this.font.Color != null)
             {
                 writer.Write("color:");
@@ -32,10 +33,12 @@ namespace DocumentSystem.Renderers.HTML
 
                 writer.Write(";");
             }
+
             if ((this.font.Style & FontStyle.Bold) != 0)
             {
                 writer.Write("font-weight:bold;");
             }
+
             if ((this.font.Style & FontStyle.Italic) != 0)
             {
                 writer.Write("font-style:italic;");

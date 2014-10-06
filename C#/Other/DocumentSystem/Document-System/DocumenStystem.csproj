@@ -48,7 +48,6 @@
     <Compile Include="Renderers\HTML\HtmlColor.cs" />
     <Compile Include="Renderers\HTML\HtmlCompositeElement.cs" />
     <Compile Include="Renderers\HTML\HtmlDocument.cs" />
-    <Compile Include="Renderers\HTML\HtmlElement.cs" />
     <Compile Include="Renderers\HTML\HtmlFont.cs" />
     <Compile Include="Renderers\HTML\HtmlHeading.cs" />
     <Compile Include="Renderers\HTML\HtmlHyperlink.cs" />
@@ -58,15 +57,25 @@
     <Compile Include="Renderers\HTML\HtmlRendererFactory.cs" />
     <Compile Include="Renderers\IRenderFactory.cs" />
     <Compile Include="Renderers\RendererFactory.cs" />
+    <Compile Include="Renderers\Text\TxtCompositeElement.cs" />
+    <Compile Include="Renderers\Text\TxtDocument.cs" />
+    <Compile Include="Renderers\Text\TxtHeading.cs" />
+    <Compile Include="Renderers\Text\TxtHyperlink.cs" />
+    <Compile Include="Renderers\Text\TxtImage.cs" />
+    <Compile Include="Renderers\Text\TxtParagraph.cs" />
+    <Compile Include="Renderers\Text\TxtRendererFactory.cs" />
+    <Compile Include="Renderers\Text\TxtTextElement.cs" />
     <Compile Include="Structure\Color.cs" />
     <Compile Include="Structure\CompositeElement.cs" />
     <Compile Include="Structure\Document.cs" />
     <Compile Include="Structure\Element.cs" />
-    <Compile Include="Structure\Font.cs" />
+    <Compile Include="Structure\Font.cs">
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
+    </Compile>
     <Compile Include="Structure\FontStyle.cs" />
     <Compile Include="Renderers\IMSWordRenderer.cs" />
     <Compile Include="Renderers\ITextRenderer.cs" />
-    <Compile Include="Renderers\IElementRenrer.cs" />
+    <Compile Include="Renderers\IElementRenderer.cs" />
     <Compile Include="Structure\Hyperlink.cs" />
     <Compile Include="Structure\Heading.cs" />
     <Compile Include="Structure\Image.cs" />

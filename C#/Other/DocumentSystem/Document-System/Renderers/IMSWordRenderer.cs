@@ -1,8 +1,7 @@
-﻿using System;
-using System.IO;
-
-namespace DocumentSystem.Renderers
+﻿namespace DocumentSystem.Renderers
 {
+    using System.IO;
+
     public interface IMSWordRenderer
     {
         void RenderMsWord(Stream stream);

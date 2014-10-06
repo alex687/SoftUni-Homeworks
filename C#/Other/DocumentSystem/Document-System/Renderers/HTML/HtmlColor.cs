@@ -1,14 +1,13 @@
-﻿using System;
-using System.IO;
-using DocumentSystem.Structure;
-
-namespace DocumentSystem.Renderers.HTML
+﻿namespace DocumentSystem.Renderers.HTML
 {
-    public class HtmlColor : IElementRenrer
+    using System.IO;
+    using Structure;
+
+    public class HtmlColor : IElementRenderer
     {
         private Color color;
 
-        public HtmlColor( Color color)
+        public HtmlColor(Color color)
         {
             this.color = color;
         }
