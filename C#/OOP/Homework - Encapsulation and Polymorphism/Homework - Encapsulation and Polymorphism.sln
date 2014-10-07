@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{AAFE0240-6EA7-469A-9F0D-6AEA27F33433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfKurtovoKonare", "BankOfKurtovoKonare\BankOfKurtovoKonare.csproj", "{D9BAC7A4-CF66-47A1-B30C-C240ED7E2C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAFE0240-6EA7-469A-9F0D-6AEA27F33433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFE0240-6EA7-469A-9F0D-6AEA27F33433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFE0240-6EA7-469A-9F0D-6AEA27F33433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFE0240-6EA7-469A-9F0D-6AEA27F33433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BAC7A4-CF66-47A1-B30C-C240ED7E2C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BAC7A4-CF66-47A1-B30C-C240ED7E2C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BAC7A4-CF66-47A1-B30C-C240ED7E2C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BAC7A4-CF66-47A1-B30C-C240ED7E2C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
