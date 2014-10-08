@@ -41,19 +41,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bonus.cs" />
+    <Compile Include="Bonuses\Injection.cs" />
+    <Compile Include="Bonuses\Pill.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="Characters\AttackCharacter.cs" />
+    <Compile Include="GameEngine\CustomEngine.cs" />
+    <Compile Include="Items\Axe.cs" />
+    <Compile Include="Characters\Healer .cs" />
+    <Compile Include="Characters\Mage.cs" />
     <Compile Include="GameEngine\Engine.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\IHeal.cs" />
     <Compile Include="Interfaces\ITimeoutable.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Items\Shield.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Team.cs" />
+    <Compile Include="Characters\Warrior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
