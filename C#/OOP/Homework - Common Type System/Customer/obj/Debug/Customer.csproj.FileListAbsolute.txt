@@ -1,0 +1,6 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\bin\Debug\Customer.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\obj\Debug\Customer.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\bin\Debug\Customer.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\bin\Debug\Customer.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\obj\Debug\Customer.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\Customer\obj\Debug\Customer.pdb
