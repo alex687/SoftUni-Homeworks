@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Customer
+﻿namespace Customer
 {
-    class Customer : ICloneable, IComparable<Customer>
+    using System;
+    using System.Collections.Generic;
+
+    public class Customer : ICloneable, IComparable<Customer>
     {
+        private readonly string address;
         private string firstName;
         private string middleName;
         private string lastName;
         private long id;
-        private readonly string address;
         private string email;
         private string mobilePhone;
         private IList<Payment> payments;
@@ -81,16 +77,13 @@ namespace Customer
             }
         }
 
-
         public string Address
         {
             get
             {
                 return this.address;
             }
-
         }
-
 
         public string MobilePhone
         {
@@ -182,6 +175,23 @@ namespace Customer
             }
         }
 
+        public static bool operator ==(Customer firstCustomer, Customer secondCustomer)
+        {
+            try
+            {
+                return firstCustomer.Equals(secondCustomer);
+            }
+            catch (NullReferenceException)
+            {
+                return false;
+            }
+        }
+
+        public static bool operator !=(Customer firstCustomer, Customer secondCustomer)
+        {
+            return !firstCustomer.Equals(secondCustomer);
+        }
+
         public override int GetHashCode()
         {
             string hashCode = this.FirstName + this.LastName + this.MiddleName + this.Id;
@@ -218,23 +228,9 @@ namespace Customer
             }
         }
 
-        public static bool operator ==(Customer firstCustomer, Customer secondCustomer)
-        {
-            return firstCustomer.Equals(secondCustomer);
-        }
-
-        public static bool operator !=(Customer firstCustomer, Customer secondCustomer)
-        {
-            return !firstCustomer.Equals(secondCustomer);
-        }
-
         public object Clone()
         {
             Customer newCustomer = this.MemberwiseClone() as Customer;
-            if (null == newCustomer)
-            {
-                throw new ArgumentNullException("Object can not be casted to type Customer!");
-            }
 
             newCustomer.Payments = new List<Payment>(this.Payments.Count);
             foreach (var payment in this.Payments)

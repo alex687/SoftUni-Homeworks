@@ -2,7 +2,7 @@
 {
     using System;
 
-    class Payment
+    public class Payment
     {
         private int price;
         private string productName;
@@ -18,7 +18,6 @@
             get
             {
                 return this.productName;
-                
             }
 
             set
@@ -37,12 +36,11 @@
             get
             {
                 return this.price;
-                
             }
 
             set
             {
-                if(value <= 0 )
+                if (value <= 0)
                 {
                     throw new ArgumentException("Price cannot be < 0");
                 }
@@ -54,10 +52,6 @@
         public object Clone()
         {
             Payment newPayment = this.MemberwiseClone() as Payment;
-            if (null == newPayment)
-            {
-                throw new ArgumentNullException("Cloned object can not be casted to type Payment!");
-            }
 
             return newPayment;
         }

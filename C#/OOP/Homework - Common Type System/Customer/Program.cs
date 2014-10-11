@@ -10,8 +10,10 @@ namespace Customer
     {
         static void Main(string[] args)
         {
-            Customer @new = new Customer(9502030405, "hasan", "hasan", "hasan", "0884899549", "hasan@abv.bg", "sadasd",
+            Customer customer = new Customer(9502030405, "hasan", "hasan", "hasan", "0884899549", "hasan@abv.bg", "sadasd",
                 CustomerType.Diamond, new List<Payment>());
+            
+            var newCustomer = customer.Clone();
         }
     }
 }
