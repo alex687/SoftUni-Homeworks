@@ -14,6 +14,7 @@ namespace Customer
                 CustomerType.Diamond, new List<Payment>());
             
             var newCustomer = customer.Clone();
+            Console.WriteLine(customer);
         }
     }
 }

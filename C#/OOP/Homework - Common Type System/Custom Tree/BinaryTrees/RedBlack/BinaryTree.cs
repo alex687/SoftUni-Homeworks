@@ -1,9 +1,11 @@
 ﻿namespace Custom_Tree.BinaryTrees.RedBlack
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
+    using System.Linq;
 
-    public class BinaryTree<T> where T : IComparable<T>
+    public class BinaryTree<T> : IEnumerable<T> where T : IComparable<T>
     {
         private Node<T> root;
         private int count = 0;
@@ -14,6 +16,16 @@
             {
                 return this.count;
             }
+        }
+
+        public static bool operator ==(BinaryTree<T> firstTree, BinaryTree<T> secondTree)
+        {
+            return BinaryTree<T>.Equals(firstTree, secondTree);
+        }
+
+        public static bool operator !=(BinaryTree<T> firstTree, BinaryTree<T> secondTree)
+        {
+            return BinaryTree<T>.Equals(firstTree, secondTree);
         }
 
         public void Insert(T value)
@@ -27,31 +39,186 @@
                 this.InsetNewNode(this.root, value);
                 this.Rebalance();
             }
+
             this.count++;
         }
 
-        public void Remove(T value)
+        public bool Remove(T value)
         {
-            
+            var node = this.FindElement(value);
+            if (node == null)
+            {
+                return false;
+            }
+            else
+            {
+                if (node.LeftLink == null && node.RightLink == null)
+                {
+                    this.ReplaceNode(node, null);
+                }
+                else if (node.LeftLink == null)
+                {
+                    this.ReplaceNode(node, node.RightLink);
+                }
+                else if (node.RightLink == null)
+                {
+                    this.ReplaceNode(node, node.LeftLink);
+                }
+                else
+                {
+                    var minElement = this.FindMinElement(node.RightLink);
+                    node.Value = minElement.Value;
+                    this.ReplaceNode(minElement, minElement.RightLink ?? null);
+                }
+
+                this.count--;
+                return true;
+            }
+        }
+
+        public T[] ToArray()
+        {
+            var elements = this.ElementsToList(this.root);
+            return elements.ToArray();
+        }
+
+        public bool Contains(T value)
+        {
+            var node = this.FindElement(value);
+            if (node == null)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public override string ToString()
         {
-            var elements = new List<T>();
-            ElementsToList(this.root, elements);
+            var elements = this.ElementsToList(this.root);
             return "{ " + string.Join(",", elements) + " }";
         }
 
-        private void ElementsToList(Node<T> node, List<T> elements)
+        public override bool Equals(object obj)
         {
-            if (node == null)
+            if (!(obj is BinaryTree<T>))
             {
+                return false;
+            }
+
+            var tree = obj as BinaryTree<T>;
+
+            if (tree.Count != this.Count)
+            {
+                return false;
+            }
+
+            return Enumerable.SequenceEqual(this.ToArray(), tree.ToArray());
+        }
+
+        public override int GetHashCode()
+        {
+            return this.ToArray().GetHashCode() ^ this.root.GetHashCode();
+        }
+
+        private IEnumerable<T> Traverse(Node<T> root)
+        {
+            if (root != null)
+            {
+                foreach (T item in Traverse(root.LeftLink))
+                    yield return item;
+
+                yield return root.Value;
+
+                foreach (T item in Traverse(root.RightLink))
+                    yield return item;
+            }
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return Traverse(root).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+
+        private Node<T> FindMinElement(Node<T> node)
+        {
+            var leftNode = node;
+            while (leftNode.LeftLink != null)
+            {
+                leftNode = leftNode.LeftLink;
+            }
+
+            return leftNode;
+        }
+
+        private void ReplaceNode(Node<T> node, Node<T> newNode)
+        {
+            if (node.Parent == null)
+            {
+                this.root = newNode;
                 return;
             }
 
-            this.ElementsToList(node.LeftLink, elements);
-            elements.Add(node.Value);
-            this.ElementsToList(node.RightLink, elements);
+            if (node.WhichSideAmIOn() == NodeSide.Left)
+            {
+                node.Parent.LeftLink = newNode;
+            }
+            else
+            {
+                node.Parent.RightLink = newNode;
+            }
+
+            if (newNode != null)
+            {
+                newNode.Parent = node.Parent;
+            }
+        }
+
+        private Node<T> FindElement(T value)
+        {
+            Node<T> node = this.root;
+            Stack<Node<T>> stack = new Stack<Node<T>>();
+            while (stack.Count != 0 || node != null)
+            {
+                if (node != null)
+                {
+                    if (node.Value.Equals(value))
+                    {
+                        return node;
+                    }
+
+                    stack.Push(node);
+                    node = node.LeftLink;
+                }
+                else
+                {
+                    node = stack.Pop();
+                    node = node.RightLink;
+                }
+            }
+
+            return null;
+        }
+
+        private List<T> ElementsToList(Node<T> node)
+        {
+            var elements = new List<T>();
+            if (node == null)
+            {
+                return elements;
+            }
+
+            foreach (T item in this.Traverse(this.root))
+            {
+                elements.Add(item);
+            }
+            return elements;
         }
 
         private void InsetNewNode(Node<T> node, T value)
@@ -81,6 +248,7 @@
             }
         }
 
+        #region Rebalancing
         private void Rebalance()
         {
             Node<T> node = this.root;
@@ -216,6 +384,7 @@
             {
                 node.LeftLink = grandParent;
                 node.RightLink = parent;
+
                 // I was the child of parent, wipe this refernce
                 parent.LeftLink = null;
             }
@@ -223,6 +392,7 @@
             {
                 node.LeftLink = parent;
                 node.RightLink = grandParent;
+
                 // i was the child of parent, wipe this reference
                 parent.RightLink = null;
             }
@@ -252,5 +422,6 @@
             node.Color = NodeColor.Black;
             grandParent.Color = NodeColor.Red;
         }
+        #endregion
     }
 }

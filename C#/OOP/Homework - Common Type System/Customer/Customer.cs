@@ -177,14 +177,7 @@
 
         public static bool operator ==(Customer firstCustomer, Customer secondCustomer)
         {
-            try
-            {
-                return firstCustomer.Equals(secondCustomer);
-            }
-            catch (NullReferenceException)
-            {
-                return false;
-            }
+            return firstCustomer.Equals(secondCustomer);
         }
 
         public static bool operator !=(Customer firstCustomer, Customer secondCustomer)
@@ -212,11 +205,11 @@
 
         public override bool Equals(object obj)
         {
-            Customer customer = obj as Customer;
-            if (customer == null)
+            if (!(obj is Customer))
             {
                 return false;
             }
+            Customer customer = obj as Customer;
 
             if (customer.Id == this.Id)
             {
