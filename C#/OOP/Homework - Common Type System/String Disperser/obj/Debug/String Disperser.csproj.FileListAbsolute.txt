@@ -1,1 +1,6 @@
 c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\bin\Debug\String Disperser.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\obj\Debug\String Disperser.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\bin\Debug\String Disperser.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\bin\Debug\String Disperser.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\obj\Debug\String Disperser.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\Homework - Common Type System\String Disperser\obj\Debug\String Disperser.pdb

@@ -4,7 +4,7 @@
     using System.Collections;
     using System.Collections.Generic;
      
-    class StringDisperser : ICloneable, IComparable<StringDisperser>, IEnumerable<StringDisperser>
+    class StringDisperser : ICloneable, IComparable<StringDisperser>, IEnumerable<char>
     {
         private List<char> chars;
 
@@ -76,14 +76,14 @@
             return this.ToString().CompareTo(other.ToString());
         }
 
-        public IEnumerator<StringDisperser> GetEnumerator()
+        public IEnumerator<char> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return this.chars.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return this.chars.GetEnumerator();
         }
     }
 }
