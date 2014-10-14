@@ -1,0 +1,6 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\bin\Debug\WarMachines.exe.config
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\obj\Debug\WarMachines.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\bin\Debug\WarMachines.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\bin\Debug\WarMachines.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\obj\Debug\WarMachines.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\WarMachines\WarMachines\WarMachines\obj\Debug\WarMachines.pdb
