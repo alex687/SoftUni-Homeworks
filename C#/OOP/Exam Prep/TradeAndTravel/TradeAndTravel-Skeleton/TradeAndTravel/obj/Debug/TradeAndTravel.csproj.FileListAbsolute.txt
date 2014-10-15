@@ -1,0 +1,6 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe.config
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\C#\OOP\Exam Prep\TradeAndTravel\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.pdb
