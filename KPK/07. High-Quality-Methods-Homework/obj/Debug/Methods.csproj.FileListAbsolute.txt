@@ -1,0 +1,5 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\07. High-Quality-Methods-Homework\bin\Debug\Methods.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\07. High-Quality-Methods-Homework\bin\Debug\Methods.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\07. High-Quality-Methods-Homework\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\07. High-Quality-Methods-Homework\obj\Debug\Methods.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\07. High-Quality-Methods-Homework\obj\Debug\Methods.pdb
