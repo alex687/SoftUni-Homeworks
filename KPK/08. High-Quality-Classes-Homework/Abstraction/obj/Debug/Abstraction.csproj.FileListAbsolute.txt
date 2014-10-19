@@ -1,0 +1,4 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\08. High-Quality-Classes-Homework\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\08. High-Quality-Classes-Homework\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\08. High-Quality-Classes-Homework\Abstraction\obj\Debug\Abstraction.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\08. High-Quality-Classes-Homework\Abstraction\obj\Debug\Abstraction.pdb
