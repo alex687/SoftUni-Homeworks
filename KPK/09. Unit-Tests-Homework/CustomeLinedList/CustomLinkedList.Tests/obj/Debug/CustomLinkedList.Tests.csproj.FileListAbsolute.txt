@@ -1,0 +1,7 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\bin\Debug\CustomLinkedList.Tests.dll
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\bin\Debug\CustomLinkedList.Tests.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\bin\Debug\CustomLinkedList.dll
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\bin\Debug\CustomLinkedList.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\obj\Debug\CustomLinkedList.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\obj\Debug\CustomLinkedList.Tests.dll
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList.Tests\obj\Debug\CustomLinkedList.Tests.pdb
