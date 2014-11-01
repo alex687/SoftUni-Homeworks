@@ -7,7 +7,7 @@
     [TestClass]
     public class DynamicListTest
     {
-        public void AddingElementShouldContain()
+        public void AddingElementShouldContainElement()
         {
             var list = new DynamicList<int>();
             list.Add(1);
@@ -17,15 +17,26 @@
             Assert.IsTrue(list.Contains(6), "The list must contain 6.");
         }
 
+
         [TestMethod]
-        public void AddingNewElementsThreeTimesCountShouldBeThree()
+        public void ListElementsCheckingElementNotInTheListShoudNotContainElement()
+        {
+            var list = new DynamicList<int>();
+            list.Add(1);
+            list.Add(2);
+
+            Assert.IsFalse(list.Contains(6), "The list must not contain 6.");
+        }
+
+        [TestMethod]
+        public void AddingThreeElementsCountShouldBeThree()
         {
             var list = new DynamicList<int>();
             list.Add(1);
             list.Add(2);
             list.Add(3);
 
-            Assert.AreEqual(3, list.Count, "The counter is not 3");
+            Assert.AreEqual(3, list.Count, "The counter is not 3 its " + list.Count);
         }
 
         [TestMethod]
@@ -37,10 +48,11 @@
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException), "There was no exception when incorrect index was given.")]    
+        [ExpectedException(typeof(ArgumentOutOfRangeException), "There was no exception when incorrect index was given.")]
         public void GetElementWithIncorrectIndexShoudThrowArgumentNullException()
         {
             var list = new DynamicList<int>();
+            
             list.Add(2);
             list.Add(6);
             int element = list[2];
@@ -50,6 +62,7 @@
         public void GetElementWithIndexShoudReturnElement()
         {
             var list = new DynamicList<int>();
+           
             list.Add(2);
             list.Add(6);
             int element = list[0];
@@ -61,6 +74,7 @@
         public void IndexOfElementShoudReturnCorrenctIndex()
         {
             var list = new DynamicList<int>();
+           
             list.Add(2);
             list.Add(6);
             int index = list.IndexOf(6);
@@ -72,14 +86,12 @@
         public void IndexOfNonExistingElementShoudReturnMinusOne()
         {
             var list = new DynamicList<int>();
+           
             list.Add(2);
             list.Add(6);
             int index = list.IndexOf(7);
 
-            Assert.AreEqual(
-                -1, 
-                index, 
-                "The returned index is not correct must be -1(Not found number) instead its " + index);
+            Assert.AreEqual(-1, index, "The returned index is not correct must be -1(Not found number) instead its " + index);
         }
 
         [TestMethod]
@@ -87,6 +99,7 @@
         public void RemoveAtIncorrectIndexShoudThrowArgumentNullException()
         {
             var list = new DynamicList<int>();
+            
             list.Add(2);
             list.Add(6);
             list.RemoveAt(2);
@@ -96,6 +109,7 @@
         public void RemoveAtIndexShoudReturnRemovedElement()
         {
             var list = new DynamicList<int>();
+           
             list.Add(2);
             list.Add(6);
             int item = list.RemoveAt(0);
@@ -104,9 +118,10 @@
         }
 
         [TestMethod]
-        public void RemovingAnElementShouldReturnIndex()
+        public void RemoveElementShouldReturnIndex()
         {
             var list = new DynamicList<int>();
+           
             list.Add(1);
             list.Add(2);
             list.Add(6);
@@ -116,7 +131,7 @@
         }
 
         [TestMethod]
-        public void RemovingAnElementTheCounterShoudBe2()
+        public void RemoveElementCounterShouldDecrease()
         {
             var list = new DynamicList<int>();
             list.Add(1);
@@ -128,7 +143,7 @@
         }
 
         [TestMethod]
-        public void RemovingAnNonExistingElementSouldReturnMinusOne()
+        public void RemoveNonExistingElementShouldReturnMinusOne()
         {
             var list = new DynamicList<int>();
             list.Add(2);
@@ -139,7 +154,7 @@
         }
 
         [TestMethod]
-        public void RemovingElementSouldRemoveTheElement()
+        public void RemoveElementShouldRemoveTheElement()
         {
             var list = new DynamicList<int>();
             list.Add(2);
@@ -147,8 +162,7 @@
             list.Add(3);
             list.Add(8);
             list.Add(4);
-
-            int index = list.Remove(3);
+            list.Remove(3);
 
             bool contains = false;
             for (int i = 0; i < list.Count; i++)
@@ -160,16 +174,6 @@
             }
 
             Assert.IsFalse(contains, "The element was not removed");
-        }
-
-        [TestMethod]
-        public void ShoudNotContainElement()
-        {
-            var list = new DynamicList<int>();
-            list.Add(1);
-            list.Add(2);
-
-            Assert.IsFalse(list.Contains(6), "The list must not contain 6.");
         }
     }
 }
