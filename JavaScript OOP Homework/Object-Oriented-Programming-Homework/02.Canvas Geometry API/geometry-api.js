@@ -39,23 +39,66 @@
     };
 
     var removeButton = document.getElementById("remove");
-    removeButton.onclick = function removeButtonClick(){
+    removeButton.onclick = function removeButtonClick() {
         var options = shapesSelect && shapesSelect.options;
 
-        for (var i=0, iLen=options.length; i<iLen; i++) {
+        for (var i = 0, iLen = options.length; i < iLen; i++) {
             var opt = options[i];
 
             if (opt.selected) {
                 opt.remove();
+                shapes.splice(i, 1);
+                refreshCanvas();
             }
         }
     };
 
-    function removeShape(index){
-        shapes[index].remove();
+    var upButton = document.getElementById("up");
+    upButton.onclick = function upButtonClick() {
+        var options = shapesSelect && shapesSelect.options;
+        var index = shapesSelect.selectedIndex;
+        if (index - 1 >= 0) {
+            swapOptions(options, index, index - 1);
+            swapCanvasElements(shapes, index, index - 1);
+            shapesSelect.selectedIndex = index - 1;
+        }
+    };
+
+    var downButton = document.getElementById("down");
+    downButton.onclick = function downButtonClick() {
+        var options = shapesSelect && shapesSelect.options;
+        var index = shapesSelect.selectedIndex;
+        if (index + 1 < options.length) {
+            swapOptions(options, index, index + 1);
+            swapCanvasElements(shapes, index, index + 1);
+            shapesSelect.selectedIndex = index + 1;
+        }
+    };
+
+    function swapOptions(options, firstOptionIndex, secondOptionIndex) {
+        var OptText = options[firstOptionIndex].text;
+        options[firstOptionIndex].text = options[secondOptionIndex].text;
+        options[secondOptionIndex].text = OptText;
     }
 
-    function makeShape(shapeToMake){
+    function swapCanvasElements(elements, firstElementIndex, secondElementIndex) {
+        var shape = shapes[firstElementIndex];
+        shapes[firstElementIndex] = shapes[secondElementIndex];
+        shapes[secondElementIndex] = shape;
+        refreshCanvas();
+    }
+
+    function refreshCanvas() {
+        var canvas = document.getElementById("shapesContainer");
+        canvas.width = canvas.width;
+        for (var index in shapes) {
+            if (shapes[index] instanceof Shapes.Shape) {
+                shapes[index].draw();
+            }
+        }
+    }
+
+    function makeShape(shapeToMake) {
         switch (shapeToMake) {
             case '0':
                 return ShapeFactory.Point();
