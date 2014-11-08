@@ -4,7 +4,7 @@
     var shapeToDraw = document.getElementById("shape");
     shapeToDraw.onchange = function shapeOnChange() {
         var aditionalInfoChilds = document.getElementById("additionalInfo").children;
-        for (var i = 0; i < aditionalInfoChilds.length; i++) {
+        for (var i = 0, length =  aditionalInfoChilds.length; i <length; i++) {
             aditionalInfoChilds[i].style.display = "none";
         }
 

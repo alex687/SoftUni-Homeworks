@@ -89,7 +89,7 @@
                         for (var index in categories) {
                             if (categories[index].length > 0 && typeof(categories[index]) === 'object') {
                                 str += "~~~~~ " + index + " ~~~~~" + "\r\n";
-                                for (var i = 0; i < categories[index].length; i++) {
+                                for (var i = 0, length = categories[index].length;  i < length; i++) {
                                     str += categories[index][i];
                                 }
                             }
