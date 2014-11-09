@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TODO List Module</title>
+    <link href="todo-list/styles.css" rel="stylesheet">
+    <script src="todo-list/ListElement.js"></script>
+    <script src="todo-list/Item.js"></script>
+    <script src="todo-list/Section.js"></script>
+    <script src="todo-list/Container.js"></script>
+    <script src="todo-list/Renderer/HTML/ContainerRenderer.js"></script>
+    <script src="todo-list/Renderer/HTML/SectionRenderer.js"></script>
+    <script src="todo-list/Renderer/HTML/ItemRenderer.js"></script>
+</head>
+<body>
+<div>
+
+</div>
+
+<script>
+    var container = new Factory.Container("TODO List");
+
+    var containerRenderer = new ContainerRenderer(container);
+    containerRenderer.addToDOM(document.body);
+</script>
+</body>
+</html>
