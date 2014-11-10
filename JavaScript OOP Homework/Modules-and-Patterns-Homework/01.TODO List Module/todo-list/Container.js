@@ -18,12 +18,6 @@ var Factory = Factory || {};
     Container.prototype.getSections = function () {
         return this._sections;
     };
-    /*
-     Container.prototype.addToDOM = function (parentHtmlElement) {
-
-     };
-
-     */
 
     Container.prototype.toString = function () {
         return "Container : " + this.getName();

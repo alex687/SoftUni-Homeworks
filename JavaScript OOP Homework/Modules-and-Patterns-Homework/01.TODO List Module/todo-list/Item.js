@@ -10,9 +10,5 @@ var Factory = Factory || {};
         return "Item : " + this.getName();
     };
 
-    Factory.getContainer = function (name) {
-        return new Item(name);
-    };
-
     Factory.Item = Item;
 })(Factory);
