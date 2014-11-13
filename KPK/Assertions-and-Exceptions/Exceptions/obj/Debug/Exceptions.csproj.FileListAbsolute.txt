@@ -1,0 +1,4 @@
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Exceptions\bin\Debug\Exceptions-Homework.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Exceptions\bin\Debug\Exceptions-Homework.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Exceptions\obj\Debug\Exceptions-Homework.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Exceptions\obj\Debug\Exceptions-Homework.pdb

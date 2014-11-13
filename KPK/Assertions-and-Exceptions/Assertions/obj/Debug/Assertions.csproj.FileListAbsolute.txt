@@ -1,0 +1,15 @@
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\Assertions-Homework.exe
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\Assertions-Homework.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions.csprojResolveAssemblyReference.cache
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions-Homework.exe
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions-Homework.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions\Assertions-Homework\obj\Debug\Assertions-Homework.exe
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions\Assertions-Homework\obj\Debug\Assertions-Homework.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions\Assertions-Homework\bin\Debug\Assertions-Homework.exe
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions\Assertions-Homework\bin\Debug\Assertions-Homework.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\12. Defensive-Programming-Homework\Assertions-and-Exceptions\Assertions-Homework\obj\Debug\Assertions.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Assertions\bin\Debug\Assertions-Homework.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Assertions\bin\Debug\Assertions-Homework.pdb
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\KPK\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions.csprojResolveAssemblyReference.cache
