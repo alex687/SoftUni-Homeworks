@@ -1,0 +1,25 @@
+body{
+    background: #cecece;
+}
+
+.sideshow > .sideshow-control {
+    display: inline-block;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    cursor: default;
+    top: 25%;
+    left: 20px;
+    background: url('images/sliderArrows.png');
+
+}
+
+.sideshow > .sideshow-control.right{
+    left: auto;
+    right: 20px;
+    background-position: 59px 0;
+}
+
+.sideshow > .item {
+    display: none;
+}
