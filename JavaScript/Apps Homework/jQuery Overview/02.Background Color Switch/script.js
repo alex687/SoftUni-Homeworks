@@ -7,7 +7,7 @@
             try{
                  $("." + classNameToPaint).css('background', color);
             }catch (err){
-                if(err instanceof Error){
+                 if(err instanceof Error){
                     alert("Invalid class name or color.");
                 }
                 else {
