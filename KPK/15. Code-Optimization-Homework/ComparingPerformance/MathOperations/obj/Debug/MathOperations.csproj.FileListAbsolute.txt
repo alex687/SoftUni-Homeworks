@@ -1,0 +1,8 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\obj\Debug\MathOperations.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\bin\Debug\MathOperations.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\bin\Debug\MathOperations.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\bin\Debug\MathOperations.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\bin\Debug\DisplayExecutionTime.dll
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\bin\Debug\DisplayExecutionTime.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\obj\Debug\MathOperations.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\MathOperations\obj\Debug\MathOperations.pdb

@@ -1,0 +1,8 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\bin\Debug\Sorting.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\bin\Debug\Sorting.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\bin\Debug\Sorting.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\obj\Debug\Sorting.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\obj\Debug\Sorting.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\bin\Debug\DisplayExecutionTime.dll
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\bin\Debug\DisplayExecutionTime.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache

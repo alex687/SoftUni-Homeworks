@@ -1,0 +1,8 @@
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\bin\Debug\ComparePerfArithmeticPrimitiveValues.exe.config
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\bin\Debug\ComparePerfArithmeticPrimitiveValues.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\bin\Debug\ComparePerfArithmeticPrimitiveValues.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\obj\Debug\ComparePerfArithmeticPrimitiveValues.exe
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\obj\Debug\ComparePerfArithmeticPrimitiveValues.pdb
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\obj\Debug\ComparePerfArithmeticPrimitiveValues.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\bin\Debug\DisplayExecutionTime.dll
+c:\users\sa6o\documents\visual studio 2012\Projects\ComparingPerformance\ComparePerfArithmeticPrimitiveValues\bin\Debug\DisplayExecutionTime.pdb

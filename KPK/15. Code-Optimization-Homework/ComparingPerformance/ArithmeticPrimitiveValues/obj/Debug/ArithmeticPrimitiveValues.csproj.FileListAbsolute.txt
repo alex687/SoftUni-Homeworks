@@ -1,0 +1,3 @@
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\ComparingPerformance\ArithmeticPrimitiveValues\bin\Debug\ComparePerfArithmeticPrimitiveValues.exe.config
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\ComparingPerformance\ArithmeticPrimitiveValues\obj\Debug\ComparePerfArithmeticPrimitiveValues.exe
+C:\Users\Sa6o\Documents\Visual Studio 2012\Projects\ComparingPerformance\ArithmeticPrimitiveValues\obj\Debug\ComparePerfArithmeticPrimitiveValues.pdb
