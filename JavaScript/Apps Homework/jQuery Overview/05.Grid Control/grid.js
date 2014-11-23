@@ -39,5 +39,5 @@ var Grid = (function () {
 
 $.fn.grid = function () {
 
-    return new Grid(this);
+    return new MessageBox(this);
 };
