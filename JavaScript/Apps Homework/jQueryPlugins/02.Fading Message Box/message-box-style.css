@@ -1,0 +1,12 @@
+.messageBox {
+    padding: 10px;
+    width: 300px
+}
+
+.success {
+    background: #7cfc00;
+}
+
+.error {
+    background: #f00
+}
