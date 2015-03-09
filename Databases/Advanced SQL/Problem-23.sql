@@ -1,0 +1,2 @@
+UPDATE Users SET Password = NULL
+WHERE LastLogin <= CAST('2010-10-03' AS SMALLDATETIME);

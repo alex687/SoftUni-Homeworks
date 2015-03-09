@@ -1,0 +1,31 @@
+ sadd authors:usernames emo alex mish
+
+  hset authors:emo name "Emil Emov"
+  hset authors:emo age 21
+  hset authors:emo email "emov@ga.bg"
+  hset authors:emo phone "+359 124 324 342"
+  hset authors:alex name "Alexei Adorov"
+  hset authors:alex age 28
+  hset authors:alex email "adora@ador.bg
+  hset authors:alex phone "+359 888 888 888"
+  hset authors:mish name "Lavin Lavinov"
+  hset authors:mish age 20
+  hset authors:mish email "lavinata@softuni.bg"
+  hset authors:mish phone "+359 999213 999 999"
+
+  set ads:count 3
+  hset ad:1 title "Apartament4i - sofiika "
+  hset ad:1 description "harasho"
+  hset ad:1 location "Sofia"
+  hset ad:1 date "22/02/2015"
+  hset ad:1 author "mish"
+  hset ad:2 title "Car -Zvqra"
+  hset ad:2 description "Super zvqr"
+  hset ad:2 location "Plovdiv"
+  hset ad:2 date "22/01/2015"
+  hset ad:2 author "alex"
+  hset ad:3 title "Baraka for sell"
+  hset ad:3 description "Baraka - lovdjiiska"
+  hset ad:3 location "Gabrovo"
+  hset ad:3 date "22/12/2014"
+  hset ad:3 author "emo"

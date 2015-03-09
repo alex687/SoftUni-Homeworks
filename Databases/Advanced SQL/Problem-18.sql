@@ -1,0 +1,2 @@
+ALTER TABLE Users
+ADD GroupId int NULL FOREIGN KEY REFERENCES Groups(GroupID)

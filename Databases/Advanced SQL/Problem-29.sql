@@ -1,0 +1,9 @@
+CREATE TABLE WorkHours (
+  WorkHourID INT IDENTITY PRIMARY KEY,
+  WorkDate DATETIME,
+  EmployeeID INT FOREIGN KEY REFERENCES Employees(EmployeeID) NOT NULL,
+  Task NVARCHAR(100) NOT NULL,
+  WorkHours INT NOT NULL,
+  Comment NVARCHAR(300) NULL,
+);
+ 
