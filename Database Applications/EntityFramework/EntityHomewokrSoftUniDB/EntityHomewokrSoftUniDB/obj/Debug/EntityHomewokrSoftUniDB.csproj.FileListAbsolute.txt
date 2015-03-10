@@ -1,0 +1,10 @@
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityHomewokrSoftUniDB.exe.config
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\obj\Debug\EntityHomewokrSoftUniDB.csprojResolveAssemblyReference.cache
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityHomewokrSoftUniDB.exe
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityHomewokrSoftUniDB.pdb
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityFramework.dll
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityFramework.xml
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\obj\Debug\EntityHomewokrSoftUniDB.exe
+c:\users\sa6o\documents\visual studio 2013\Projects\EntityHomewokrSoftUniDB\EntityHomewokrSoftUniDB\obj\Debug\EntityHomewokrSoftUniDB.pdb

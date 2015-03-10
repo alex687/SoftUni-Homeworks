@@ -1,0 +1,14 @@
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe.config
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Model.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Data.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.Model.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.exe
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml

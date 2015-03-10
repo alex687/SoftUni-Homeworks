@@ -1,0 +1,12 @@
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll.config
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Model.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Model.pdb
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.dll
+C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.pdb
