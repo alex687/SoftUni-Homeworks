@@ -12,7 +12,6 @@
     {
         public static void Main(string[] args)
         {
-
             var studentDb = new StudentSystemData();
 
             var newResource = new Resource { Link = "www.abv.bg", Name = "Email", Type = ResourceType.Other };
@@ -41,7 +40,7 @@
                 var homeworks = studentHomeworks.Homeworks;
                 foreach (var homework in homeworks)
                 {
-                    Console.WriteLine(" " + homework.Course.Name + "-" + homework.SentOn.Date);
+                    Console.WriteLine(" " + homework.CourseName + "-" + homework.SentOn.Date);
                 }
 
                 Console.WriteLine();
@@ -63,9 +62,20 @@
             }
         }
 
-        private static List<Student> GetStudentsWithHomeworks(StudentSystemData studentDb)
+        private static IEnumerable<dynamic> GetStudentsWithHomeworks(StudentSystemData studentDb)
         {
-            var studentsHomeworks = studentDb.Students.All().Include(s => s.Homeworks);
+            var studentsHomeworks =
+                studentDb.Students.All()
+                    .Select(
+                        s =>
+                        new
+                            {
+                                s.FirstName,
+                                s.LastName,
+                               Homeworks = s.Homeworks.Select(h => new { CourseName = h.Course.Name, h.SentOn })
+                            });
+
+
             return studentsHomeworks.ToList();
         }
 

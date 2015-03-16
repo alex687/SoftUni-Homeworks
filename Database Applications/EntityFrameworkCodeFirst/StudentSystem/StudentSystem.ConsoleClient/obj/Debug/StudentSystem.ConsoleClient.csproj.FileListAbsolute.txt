@@ -12,3 +12,6 @@ C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.
 C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb
 C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Sa6o\documents\visual studio 2013\Projects\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\Database Applications\EntityFrameworkCodeFirst\StudentSystem\StudentSystem.ConsoleClient\bin\Debug\StudentSystem.ConsoleClient.exe.config
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\Database Applications\EntityFrameworkCodeFirst\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.exe
+C:\Users\Sa6o\Documents\SoftUni-Homeworks\Database Applications\EntityFrameworkCodeFirst\StudentSystem\StudentSystem.ConsoleClient\obj\Debug\StudentSystem.ConsoleClient.pdb
