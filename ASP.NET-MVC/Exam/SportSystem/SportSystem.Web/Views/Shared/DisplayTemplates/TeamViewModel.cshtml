@@ -1,0 +1,13 @@
+﻿@model SportSystem.Web.ViewModels.TeamsViewModel.TeamViewModel
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h2 class="text-info">@Model.Name</h2>
+        @if (!string.IsNullOrEmpty(Model.Website))
+        {
+            <p><a href="@Model.Website"> @Model.Website</a></p>
+        }
+
+        @Html.ActionLink("More Details", "Details", "Teams", new { id = @Model.Id }, new { @class = "btn btn-info" })
+    </div>
+</div>

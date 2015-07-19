@@ -1,0 +1,22 @@
+﻿@using PagedList.Mvc
+@model PagedList.PagedList<Twitter.Web.Models.TweetModels.TweetViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+
+    <div class="jumbotron">
+        <h1>Twitter.net</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    </div>
+    <div class="col-md-12">
+        @Html.DisplayFor(x => x);
+        <div class="row">
+            <div class="col-md-12">
+                @Html.PagedListPager(Model, page => Url.Action("Index", "Home", new { page }))
+                Showing @Model.FirstItemOnPage to @Model.LastItemOnPage of @Model.TotalItemCount Tweets
+            </div>
+        </div>
+    </div>
+</div>

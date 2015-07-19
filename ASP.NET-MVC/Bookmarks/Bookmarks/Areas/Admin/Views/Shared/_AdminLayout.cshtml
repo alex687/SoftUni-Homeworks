@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Adminsitration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@RenderBody()
+
+@section styles {
+    @Styles.Render("~/Content/css/kendo")
+    @Styles.Render("~/Content/css/kendo/blue")
+    @Scripts.Render("~/bundles/kendo")
+}

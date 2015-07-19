@@ -1,0 +1,19 @@
+﻿@using PagedList.Mvc
+@model PagedList.PagedList<SportSystem.Web.ViewModels.MatchViewModels.MatchViewModel>
+
+@{
+    ViewBag.Title = "All Matches";
+}
+<h2>View All Matches</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.DisplayFor(x => x)
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Matches", new { page }))
+        Showing @Model.FirstItemOnPage to @Model.LastItemOnPage of @Model.TotalItemCount Matches
+    </div>
+</div>

@@ -1,0 +1,10 @@
+﻿@model SportSystem.Web.ViewModels.MatchViewModels.MatchViewModel
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h2 class="text-info">@Model.HomeTeamName vs @Model.AwayTeamName</h2>
+        <p>Start : @Model.StartDate</p>
+        
+        @Html.ActionLink("More Details", "Details", "Matches", new { id = @Model.Id }, new { @class = "btn btn-info" })
+    </div>
+</div>

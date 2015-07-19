@@ -1,0 +1,48 @@
+﻿@using Bookmarks.Areas.Admin.Models.View
+@using Kendo.Mvc.UI
+@{
+    ViewBag.Title = "Categories Admin Panel";
+    const string AreaName = "Admin";
+}
+
+<h2>Admin panel - Categories</h2>
+
+@(Html.Kendo().Grid<CategoryModel>()
+    .Name("CategoriesGrid")
+    .Columns(columns =>
+    {
+        columns.Bound(col => col.Id);
+        columns.Bound(col => col.Name);
+        columns.Command(command => command.Edit().Text("Edit").UpdateText("Save").CancelText("Cancel"));
+        columns.Command(command => command.Destroy().Text("Delete"));
+    })
+    .ToolBar(toolbar =>
+    {
+        toolbar.Create().Text("Create");
+    })
+    .Editable(editable =>
+    {
+        editable.Mode(GridEditMode.PopUp);
+        editable.Window(w => w.Title(ViewBag.Title));
+        editable.DisplayDeleteConfirmation("Are you sure you want to delete the category?");
+    })
+    .Pageable(x => x.Refresh(true))
+    .Sortable()
+    .Filterable()
+    .Reorderable(x => x.Columns(true))
+    .Resizable(x => x.Columns(true))
+    .DataSource(x => x.Ajax()
+        .ServerOperation(true)
+        .Sort(sort => sort.Add("Id").Descending()) 
+        .Model(model =>
+            {
+                model.Id(m => m.Id);
+                model.Field(cm => cm.Id).Editable(false);
+            })
+        .Create(create => create.Action("Create", "Categories", new { area = AreaName }))
+        .Read(read => read.Action("Read", "Categories", new { area = AreaName }))
+        .Update(update => update.Action("Update", "Categories", new { area = AreaName }))
+        .Destroy(destroy => destroy.Action("Delete", "Categories", new { area = AreaName }))
+        )
+
+)

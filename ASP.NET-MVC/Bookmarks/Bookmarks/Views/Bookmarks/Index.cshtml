@@ -1,0 +1,14 @@
+﻿@using PagedList.Mvc
+@model PagedList.PagedList<Bookmarks.Models.View.BookmarkModels.BookmarkViewModel>
+@{
+    ViewBag.Title = "Bookmarks Page";
+}
+<div class="row">
+    @Html.DisplayFor(x => x);
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Home", new { page }))
+        Showing @Model.FirstItemOnPage to @Model.LastItemOnPage of @Model.TotalItemCount Bookmarks
+    </div>
+</div>

@@ -1,0 +1,14 @@
+﻿@model Bookmarks.Models.View.BookmarkModels.BookmarkViewModel
+
+<div class="col-md-4 bor">
+    <h2>@Model.Title</h2>
+    <p>
+        @Model.Description
+    </p>
+    @if (Request.IsAuthenticated)
+    {
+        <p>
+            @Html.ActionLink("Details", "View", "Bookmarks", new {id = Model.Id}, new { @class = "btn btn-default" })
+        </p>
+    }
+</div>

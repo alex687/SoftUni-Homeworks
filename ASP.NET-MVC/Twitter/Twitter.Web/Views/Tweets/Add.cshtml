@@ -1,0 +1,8 @@
+﻿@model Twitter.Web.Models.TweetModels.TweetInputModel
+@{
+    ViewBag.Title = "Add a Tweet";
+}
+<h2>@ViewBag.Title</h2>
+<div class="row">
+    @Html.EditorFor(x => x)
+</div>

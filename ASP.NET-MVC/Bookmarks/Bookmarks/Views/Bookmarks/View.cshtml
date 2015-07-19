@@ -1,0 +1,31 @@
+﻿@model Bookmarks.Models.View.BookmarkModels.BookmarkDetailsViewModel
+@{
+    ViewBag.Title = "Bookmark Page";
+}
+<div class="row">
+    <h2>@Model.Title</h2>
+    <p>Category :  @Model.Category</p>
+    <p>Description : @Model.Description</p>
+    <p>Url : @Model.Url</p>
+    <p id="votes">@Model.VotesResult</p>
+    @Ajax.ActionLink("+", "VoteForBookmark", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "votes", InsertionMode = InsertionMode.Replace})
+</div>
+<div class="row" id="comments">
+    @Html.DisplayFor(b => b.Comments)
+</div>
+
+<div class="row">
+    @using (Ajax.BeginForm("Add", "Comments", new { id  = Model.Id }, new AjaxOptions { UpdateTargetId = "comments", InsertionMode = InsertionMode.InsertAfter }))
+    {
+        @Html.AntiForgeryToken()
+        <label for="Text">Content</label>
+        <input id="Text" type="text" name="Text" value="" />
+
+        <input type="submit" name="submit" value="Add comment" />
+    }
+
+</div>
+
+@section scripts {
+    <script type="text/javascript" src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+}

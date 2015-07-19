@@ -1,0 +1,30 @@
+﻿@model Twitter.Web.Models.TweetModels.TweetViewModel
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <small>
+                    @Html.DisplayFor(t => t.User)
+                </small>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                @Model.Text
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            @if (Model.IsFavorited)
+            {
+                <div class="col-md-2"><span class="glyphicon glyphicon-star"></span> @Html.RouteLink("UnFavorite", new { controller = "Tweets", action = "Favorite", id = Model.Id })</div>
+
+            }
+            else
+            {
+                <div class="col-md-2"><span class="glyphicon glyphicon-star"></span> @Html.RouteLink("Favorite", new { controller = "Tweets", action = "Favorite", id = Model.Id })</div>
+            }
+        </div>
+    </div>
+</div>

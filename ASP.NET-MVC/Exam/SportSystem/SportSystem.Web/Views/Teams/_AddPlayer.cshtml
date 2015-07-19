@@ -1,0 +1,7 @@
+﻿@model List<SelectListItem>
+<div class="form-group">
+    <label class="col-md-2 control-label" for="Players"> Player:</label>
+    <div class="col-md-10">
+        @Html.DropDownList("Players", Model, new { @class = "form-control" })
+    </div>
+</div>

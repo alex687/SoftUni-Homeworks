@@ -1,0 +1,47 @@
+﻿@model SportSystem.Web.ViewModels.TeamsViewModel.TeamViewDetailsModel
+
+@{
+    ViewBag.Title = "Team Details";
+}
+<h2>@Model.Name</h2>
+
+<div class="row">
+    <div class="col-md-9">
+        <p>
+            <strong>Nickname:</strong> @Model.NickName
+        </p>
+        <p>
+            <strong>Founded:</strong> @Model.DateFounded
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                @Html.DisplayFor(t => t.Players)
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <p>Votes: <span id="vote">@(Model.Votes ?? 0)</span></p>
+        <div id="voteAjax">
+            @if (!Model.IsVoted)
+            {
+                using (Ajax.BeginForm("Vote", "Teams", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "vote", InsertionMode = InsertionMode.Replace, OnSuccess = "voteSuccess" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="submit" name="submit" value="+" class="btn btn-danger" />
+                }
+            }
+            else
+            {
+                <p>You are voted</p>
+            }
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script type="text/javascript" src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function voteSuccess() {
+            $("#voteAjax").html("You are voted");
+        }
+    </script>
+}

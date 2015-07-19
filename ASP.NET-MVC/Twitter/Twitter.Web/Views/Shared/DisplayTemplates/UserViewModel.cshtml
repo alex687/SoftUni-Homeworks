@@ -1,0 +1,9 @@
+﻿@model Twitter.Web.Models.UserModels.UserViewModel
+
+<span class="glyphicon glyphicon-user"></span> <strong class="text-primary">@Model.FullName</strong>
+<span class="glyphicon glyphicon-link"></span>
+@Html.RouteLink(Model.UserName, new { username = Model.UserName }, new { @class = "text-muted" })
+@if(!Model.IsFolowed)
+{ 
+    <span class="glyphicon glyphicon-plus"></span> @Html.RouteLink("Follow",   new {controller = "Users", action = "Follow", username = Model.UserName})
+}

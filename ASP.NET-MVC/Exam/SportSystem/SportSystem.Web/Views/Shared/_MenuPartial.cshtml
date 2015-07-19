@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("All Matches", "Index", "Matches")</li>
+        <li>@Html.ActionLink("All Teams", "Index", "Teams")</li>
+        <li>@Html.ActionLink("Create a new Team", "Create", "Teams")</li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("All Matches", "Index", "Matches")</li>
+        <li>@Html.ActionLink("All Teams", "Index", "Teams")</li>
+    </ul>
+}
+
+@Html.Partial("_LoginPartial")
+
+
