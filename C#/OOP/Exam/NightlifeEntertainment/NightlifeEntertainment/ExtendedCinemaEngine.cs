@@ -93,7 +93,7 @@
                 this.Performances.Where(p => p.StartTime >= startDateTime && p.Name.ToLower().Contains(phraseLower))
                     .OrderBy(p => p.StartTime)
                     .ThenBy(p => p.BasePrice)
-                    .ThenBy(p => p.Name)`;
+                    .ThenBy(p => p.Name);
             this.Output.AppendLine("Search for \"" + phrase + "\"");
             this.Output.AppendLine("Performances:");
 
